@@ -7,21 +7,21 @@ author: Guillermo Calvo
 favicons:
   - # 16x16
     rel: shortcut icon
-    href: /assets/favicon.ico
+    href: /assets/images/favicon.ico
     type: image/x-icon
   - # 64x64
     rel: shortcut icon
     sizes: 64x64
-    href: /assets/favicon-64x64.png
+    href: /assets/images/favicon-64x64.png
     type: image/png
   - # Android Chrome
     rel: icon
-    href: /assets/guillermo.png
+    href: /assets/images/guillermo.png
     sizes: 180x180
     type: image/png
   - # 180x180 Apple Touch icon (for iPhone 6 Plus; other device will scale it down as needed)
     rel: apple-touch-icon
-    href: /assets/guillermo.png
+    href: /assets/images/guillermo.png
     sizes: 180x180
     type: image/png
 
@@ -34,14 +34,14 @@ open_graph:
   site_name: Guillermo Calvo - Curriculum Vitae
   description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
   locale: en_US
-  image: /assets/thumb.png
+  image: /assets/images/thumb.png
 
 twitter_cards:
   title: Guillermo Calvo - Curriculum Vitae
   description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
   creator: guillermonkey
   card: summary_large_image
-  image: /assets/thumb.png
+  image: /assets/images/thumb.png
 
 cv:
 
@@ -54,7 +54,7 @@ cv:
     website:
       title: guillermo.in
       link: http://guillermo.in/
-    image: /assets/guillermo.png
+    image: /assets/images/guillermo.png
     contact:
       title: Contact Me
       link: mailto:cv@guillermo.in
@@ -177,12 +177,12 @@ cv:
           title: <i class="fa fa-play-circle"></i> View on Google Play
           link: https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory
         label: 3D GAME
-        image: /projects/kana-memory.png
+        image: /assets/images/projects/kana-memory.png
         content: |
           **Kana Memory** is [Origame Studio](http://origamestudio.tumblr.com/)'s first published game for *Android* platform.
           It is a memory game which lets you learn Japanese by playing it.
 
-          ![](/projects/kana-memory-2.png)
+          ![](/assets/images/projects/kana-memory-2.png)
 
           This app is available for free on *Google Play* and translated to several languages.
           Currently hundreds of people around the world use it.
@@ -192,14 +192,14 @@ cv:
           title: Find out more
           link: http://exceptions4c.guillermo.in/
         label: Open Source
-        image: /projects/exceptions4c.png
+        image: /assets/images/projects/exceptions4c.png
         content: A **C library for error handling** through exceptions. Among other functionalities, it lets the developer handle error signals sent by the operative system to the program (such as *division by zero*). It is portable and supports multi-threading.
       - title: AdMobPlugin For Unity
         more:
           title: View on GitHub
           link: https://github.com/guillermocalvo/admob-unity-plugin
         label: Open Source
-        image: /projects/admob-unity-plugin.png
+        image: /assets/images/projects/admob-unity-plugin.png
         content: An **extension for Unity3d** which allows you to place *Google AdMob* banners in your *Android* games.
     other:
       - title: JSON-RPC For Java
