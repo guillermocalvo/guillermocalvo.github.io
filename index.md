@@ -7,21 +7,21 @@ author: Guillermo Calvo
 favicons:
   - # 16x16
     rel: shortcut icon
-    href: /assets/curriculum/favicon.ico
+    href: /assets/favicon.ico
     type: image/x-icon
   - # 64x64
     rel: shortcut icon
     sizes: 64x64
-    href: /assets/curriculum/favicon-64x64.png
+    href: /assets/favicon-64x64.png
     type: image/png
   - # Android Chrome
     rel: icon
-    href: /assets/curriculum/guillermo.png
+    href: /assets/guillermo.png
     sizes: 180x180
     type: image/png
   - # 180x180 Apple Touch icon (for iPhone 6 Plus; other device will scale it down as needed)
     rel: apple-touch-icon
-    href: /assets/curriculum/guillermo.png
+    href: /assets/guillermo.png
     sizes: 180x180
     type: image/png
 
@@ -34,14 +34,14 @@ open_graph:
   site_name: Guillermo Calvo - Curriculum Vitae
   description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
   locale: en_US
-  image: /assets/curriculum/thumb.png
+  image: /assets/thumb.png
 
 twitter_cards:
   title: Guillermo Calvo - Curriculum Vitae
   description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
   creator: guillermonkey
   card: summary_large_image
-  image: /assets/curriculum/thumb.png
+  image: /assets/thumb.png
 
 cv:
 
@@ -52,7 +52,7 @@ cv:
     location: Tokyo, Japan
     email: cv@guillermo.in
     website: http://guillermo.in/
-    image: /assets/curriculum/guillermo.png
+    image: /assets/guillermo.png
     contact:
       title: Contact Me
       link: mailto:cv@guillermo.in
