@@ -51,7 +51,9 @@ cv:
     desc: Software Developer
     location: Tokyo, Japan
     email: cv@guillermo.in
-    website: http://guillermo.in/
+    website:
+      title: guillermo.in
+      link: http://guillermo.in/
     image: /assets/guillermo.png
     contact:
       title: Contact Me
