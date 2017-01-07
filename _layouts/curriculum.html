@@ -13,14 +13,14 @@ layout: compress
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ page.description }}">
     <meta name="author" content="{{ page.author }}">
-    <link rel="stylesheet" type="text/css" href='//fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic'>
-    <link rel="stylesheet" type="text/css" href='//fonts.googleapis.com/css?family=Montserrat:400,700'>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
     <!-- Global CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/bootstrap/css/bootstrap.min.css'       | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/bootstrap/css/bootstrap.min.css'   | prepend: site.baseurl }}">
     <!-- Plugins CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/font-awesome/css/font-awesome.min.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/plugins/font-awesome/css/font-awesome.css' | prepend: site.baseurl }}">
     <!-- Theme CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/styles.css'                            | prepend: site.baseurl }}" id="theme-style">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/styles.css'                            | prepend: site.baseurl }}" id="theme-style">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -136,7 +136,12 @@ layout: compress
                                   <img class="img-responsive project-image" src="{{ project.image | prepend: site.baseurl }}" alt="" />
                                 </a>
                                 <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="{{ project.more.link }}" target="_blank">{{ project.title }}</a>{% if project.label %} <span class="label label-theme">{{ project.label }}{% endif %}</h3>
+                                    <h3 class="title">
+                                      <a href="{{ project.more.link }}" target="_blank">{{ project.title }}</a>
+                                  {% if project.label %}
+                                      <span class="label label-theme">{{ project.label }}</span>
+                                  {% endif %}
+                                    </h3>
                                     {{ project.content | markdownify }}
                                   {% if project.more %}
                                     <p><a class="more-link" href="{{ project.more.link }}" target="_blank"><i class="fa fa-external-link"></i> {{ project.more.title }}</a></p>
@@ -159,7 +164,12 @@ layout: compress
                         <div class="content">
                           {% for project in page.cv.projects.other %}
                             <div class="item">
-                                <h3 class="title"><a href="{{ project.more.link }}">{{ project.title }}</a>{% if project.label %} <span class="label label-theme">{{ project.label }}</span>{% endif %}</h3>
+                                <h3 class="title">
+                                  <a href="{{ project.more.link }}">{{ project.title }}</a>
+                              {% if project.label %}
+                                  <span class="label label-theme">{{ project.label }}</span>
+                              {% endif %}
+                                </h3>
                                 <div class="summary">{{ project.content | markdownify }}</div>
                               {% if project.more %}
                                 <p><a class="more-link" href="{{ project.more.link }}" target="_blank"><i class="fa fa-external-link"></i> {{ project.more.title }}</a></p>
@@ -187,7 +197,7 @@ layout: compress
 
                           {% for experience in page.cv.experiences.featured %}
                             <div class="item">
-                                <h3 class="title" id="{{ experience.name | remove: '.md' }}">
+                                <h3 class="title">
                                     {{ experience.position }} -
                                     <span class="place">
                                         {% if experience.link %}<a href="{{ experience.link }}">{% endif %}{{ experience.company }}{% if experience.link %}</a>{% endif %}</span> <span class="year">({{ experience.from }} &ndash; {{ experience.to }})
@@ -207,7 +217,7 @@ layout: compress
 
                           {% for experience in page.cv.experiences.relevant %}
                             <div class="relevant item">
-                                <h3 class="title" id="{{ experience.name | remove: '.md' }}">
+                                <h3 class="title">
                                     <span class="level-label" data-toggle="tooltip" data-placement="bottom" data-animation="true" title="{{ experience.content | markdownify | strip_html }}">
                                         {{ experience.position }} -
                                         <span class="place">
@@ -295,7 +305,7 @@ layout: compress
                               {% for language in page.cv.languages.featured %}
                                 <li class="item">
                                     <span class="title"><strong>{{ language.title }}:</strong></span>
-                                    <span class="level" title="{{ language.tooltip }}">{{ language.level }} <br class="visible-xs"/>{% for i in (1..10) limit: language.stars %}<i class="fa fa-star"></i> {% endfor %}</span
+                                    <span class="level" title="{{ language.tooltip }}">{{ language.level }} <br class="visible-xs"/>{% for i in (1..10) limit: language.stars %}<i class="fa fa-star"></i> {% endfor %}</span>
                                 </li>
                               {% endfor %}
                             </ul>
@@ -406,16 +416,16 @@ layout: compress
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container text-center">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
             <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
         </div>
     </footer>
 
     <!-- Javascript -->
-    <script type="text/javascript" src="{{ '/assets/jquery-1.11.2.min.js'          | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/assets/jquery-migrate-1.2.1.min.js'   | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/assets/bootstrap/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ '/assets/jquery.rss.min.js'             | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ '/assets/plugins/jquery-1.11.3.min.js'              | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ '/assets/plugins/bootstrap/js/bootstrap.min.js'     | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ '/assets/plugins/jquery-rss/dist/jquery.rss.min.js' | prepend: site.baseurl }}"></script>
     <!-- custom js -->
-    <script type="text/javascript" src="{{ '/assets/main.js'                       | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/main.js'                                | prepend: site.baseurl }}"></script>
 </body>
 </html>
