@@ -64,20 +64,20 @@ layout: compress
     <!-- HEADER -->
     <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" src="{{ page.cv.personal.image | prepend: site.baseurl }}" alt="{{ page.cv.personal.name }}" />
+            <img class="profile-image img-responsive pull-left" src="{{ site.data.personal.image | prepend: site.baseurl }}" alt="{{ site.data.personal.name }}" />
             <div class="profile-content pull-left">
-                <h1 class="name">{{ page.cv.personal.name }}</h1>
-                <h2 class="desc">{{ page.cv.personal.desc }}</h2>
+                <h1 class="name">{{ site.data.personal.name }}</h1>
+                <h2 class="desc">{{ site.data.personal.desc }}</h2>
                 <!-- SOCIAL LINKS -->
                 <ul class="social list-inline">
-                  {% for social in page.cv.social.featured %}
+                  {% for social in site.data.social.featured %}
                     <li><a href="{{ social.link }}"><i class="fa fa-{{ social.icon }}"></i></a></li>
                   {% endfor %}
-                    <li class="last-item"><a href="mailto:{{ page.cv.personal.email }}"><i class="fa fa-envelope"></i></a></li>
+                    <li class="last-item"><a href="mailto:{{ site.data.personal.email }}"><i class="fa fa-envelope"></i></a></li>
                 </ul>
             </div>
-          {% if page.cv.personal.contact %}
-            <a class="btn btn-cta-primary pull-right" href="{{ page.cv.personal.contact.link }}"><i class="fa fa-paper-plane"></i> {{ page.cv.personal.contact.title }}</a>
+          {% if site.data.personal.contact %}
+            <a class="btn btn-cta-primary pull-right" href="{{ site.data.personal.contact.link }}"><i class="fa fa-paper-plane"></i> {{ site.data.personal.contact.title }}</a>
           {% endif %}
         </div>
     </header>
@@ -91,21 +91,21 @@ layout: compress
                 <!-- ABOUT ME -->
                 <section class="about section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.personal.title }}</h2>
+                        <h2 class="heading">{{ site.data.personal.title }}</h2>
                         <div class="content">{{ content }}</div>
                     </div>
                 </section>
 
-              {% if page.cv.projects.featured or page.cv.projects.relevant %}
+              {% if site.data.projects.featured or site.data.projects.relevant %}
                 <!-- LATEST PROJECTS -->
                 <section class="latest section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.projects.title }}</h2>
+                        <h2 class="heading">{{ site.data.projects.title }}</h2>
                         <div class="content">
 
-                        {% if page.cv.projects.featured %}
+                        {% if site.data.projects.featured %}
                             <!-- FEATURED -->
-                          {% for project in page.cv.projects.featured %}
+                          {% for project in site.data.projects.featured %}
                             <div class="item featured text-center">
                                 <h3 class="title"><a href="{{ project.more.link }}" target="_blank">{{ project.title }}</a></h3>
                                {% if project.subtitle %}
@@ -130,9 +130,9 @@ layout: compress
                             <hr class="divider" />
                         {% endif %}
 
-                        {% if page.cv.projects.relevant %}
+                        {% if site.data.projects.relevant %}
                             <!-- RELEVANT -->
-                          {% for project in page.cv.projects.relevant %}
+                          {% for project in site.data.projects.relevant %}
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="{{ project.more.link }}" target="_blank">
                                   <img class="img-responsive project-image" src="{{ project.image | prepend: site.baseurl }}" alt="" />
@@ -158,13 +158,13 @@ layout: compress
                 </section>
               {% endif %}
 
-              {% if page.cv.projects.other %}
+              {% if site.data.projects.other %}
                 <!-- OTHER PROJECTS -->
                 <section class="projects section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.projects.otherTitle }}</h2>
+                        <h2 class="heading">{{ site.data.projects.otherTitle }}</h2>
                         <div class="content">
-                          {% for project in page.cv.projects.other %}
+                          {% for project in site.data.projects.other %}
                             <div class="item">
                                 <h3 class="title">
                                   <a href="{{ project.more.link }}">{{ project.title }}</a>
@@ -178,10 +178,10 @@ layout: compress
                               {% endif %}
                             </div>
                           {% endfor %}
-                          {% if page.cv.projects.more %}
-                            <a class="btn btn-cta-secondary" href="{{ page.cv.projects.more.link }}">
+                          {% if site.data.projects.more %}
+                            <a class="btn btn-cta-secondary" href="{{ site.data.projects.more.link }}">
                                 <i class="fa fa-flask"></i>
-                                {{ page.cv.projects.more.title }}
+                                {{ site.data.projects.more.title }}
                                 <i class="fa fa-chevron-right"></i>
                             </a>
                           {% endif %}
@@ -190,14 +190,14 @@ layout: compress
                 </section>
               {% endif %}
 
-              {% if page.cv.experiences %}
+              {% if site.data.experiences %}
                 <!-- EXPERIENCE -->
                 <section class="experience section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.experiences.title }}</h2>
+                        <h2 class="heading">{{ site.data.experiences.title }}</h2>
                         <div class="content">
 
-                          {% for experience in page.cv.experiences.featured %}
+                          {% for experience in site.data.experiences.featured %}
                             <div class="item">
                                 <h3 class="title">
                                     {{ experience.position }} -
@@ -217,7 +217,7 @@ layout: compress
                             </div>
                           {% endfor %}
 
-                          {% for experience in page.cv.experiences.relevant %}
+                          {% for experience in site.data.experiences.relevant %}
                             <div class="relevant item">
                                 <h3 class="title">
                                     <span class="level-label" data-toggle="tooltip" data-placement="bottom" data-animation="true" title="{{ experience.content | markdownify | strip_html }}">
@@ -239,10 +239,10 @@ layout: compress
                            {% endif  %}
                           {% endfor %}
 
-                          {% if page.cv.experiences.more %}
-                            <a class="btn btn-cta-secondary" href="{{ page.cv.experiences.more.link }}">
+                          {% if site.data.experiences.more %}
+                            <a class="btn btn-cta-secondary" href="{{ site.data.experiences.more.link }}">
                                 <i class="fa fa-suitcase"></i>
-                                {{ page.cv.experiences.more.title }}
+                                {{ site.data.experiences.more.title }}
                                 <i class="fa fa-chevron-right"></i>
                             </a>
                           {% endif %}
@@ -263,23 +263,23 @@ layout: compress
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><a href="{{ page.cv.personal.location.link }}">{{ page.cv.personal.location.title }}</a></li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ page.cv.personal.email }}">{{ page.cv.personal.email }}</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="{{ page.cv.personal.website.link }}">{{ page.cv.personal.website.title }}</a></li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><a href="{{ site.data.personal.location.link }}">{{ site.data.personal.location.title }}</a></li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ site.data.personal.email }}">{{ site.data.personal.email }}</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="{{ site.data.personal.website.link }}">{{ site.data.personal.website.title }}</a></li>
                             </ul>
                         </div>
                     </div>
                 </aside>
 
-              {% if page.cv.skills %}
+              {% if site.data.skills %}
                 <!-- SKILLS -->
                 <aside class="skills aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.skills.title }}</h2>
+                        <h2 class="heading">{{ site.data.skills.title }}</h2>
                         <div class="content">
-                            <div class="intro">{{ page.cv.skills.intro | markdownify }}</div>
+                            <div class="intro">{{ site.data.skills.intro | markdownify }}</div>
                             <div class="skillset">
-                              {% for skill in page.cv.skills.featured %}
+                              {% for skill in site.data.skills.featured %}
                                 <div class="item">
                                     <h3 class="level-title">{{ skill.title }}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="{{ skill.tooltip }}">{{ skill.level }}</span></h3>
                                     <div class="level-bar">
@@ -288,8 +288,8 @@ layout: compress
                                     </div>
                                 </div>
                               {% endfor %}
-                              {% if page.cv.skills.more %}
-                                <p><a class="more-link" href="{{ page.cv.skills.more.link }}"><i class="fa fa-external-link"></i> {{ page.cv.skills.more.title }}</a></p>
+                              {% if site.data.skills.more %}
+                                <p><a class="more-link" href="{{ site.data.skills.more.link }}"><i class="fa fa-external-link"></i> {{ site.data.skills.more.title }}</a></p>
                               {% endif %}
                             </div>
                         </div>
@@ -297,14 +297,14 @@ layout: compress
                 </aside>
               {% endif %}
 
-              {% if page.cv.languages %}
+              {% if site.data.languages %}
                 <!-- LANGUAGES -->
                 <aside class="languages aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.languages.title }}</h2>
+                        <h2 class="heading">{{ site.data.languages.title }}</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                              {% for language in page.cv.languages.featured %}
+                              {% for language in site.data.languages.featured %}
                                 <li class="item">
                                     <span class="title"><strong>{{ language.title }}:</strong></span>
                                     <span class="level" title="{{ language.tooltip }}">{{ language.level }} <br class="visible-xs"/>{% for i in (1..10) limit: language.stars %}<i class="fa fa-star"></i> {% endfor %}</span>
@@ -316,13 +316,13 @@ layout: compress
                 </aside>
               {% endif %}
 
-              {% if page.cv.certifications %}
+              {% if site.data.certifications %}
                 <!-- CERTIFICATIONS -->
                 <aside class="certifications aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.certifications.title }}</h2>
+                        <h2 class="heading">{{ site.data.certifications.title }}</h2>
                         <div class="content">
-                          {% for certification in page.cv.certifications.featured %}
+                          {% for certification in site.data.certifications.featured %}
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-certificate"></i> {{ certification.title }}</h3>
                                 <h4 class="by">{{ certification.by }} <span class="year">({{ certification.when }})</span></h4>
@@ -333,13 +333,13 @@ layout: compress
                 </aside>
               {% endif %}
 
-              {% if page.cv.education %}
+              {% if site.data.education %}
                 <!-- EDUCATION -->
                 <aside class="education aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.education.title }}</h2>
+                        <h2 class="heading">{{ site.data.education.title }}</h2>
                         <div class="content">
-                          {% for education in page.cv.education.featured %}
+                          {% for education in site.data.education.featured %}
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> {{ education.title }}</h3>
                                 <h4 class="university">{{ education.where }} <span class="year">({{ education.when }})</span></h4>
@@ -350,13 +350,13 @@ layout: compress
                 </aside>
               {% endif %}
 
-              {% if page.cv.endorsements %}
+              {% if site.data.endorsements %}
                 <!-- ENDORSEMENTS -->
                 <aside class="testimonials aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.endorsements.title }}</h2>
+                        <h2 class="heading">{{ site.data.endorsements.title }}</h2>
                         <div class="content">
-                          {% for endorsement in page.cv.endorsements.featured %}
+                          {% for endorsement in site.data.endorsements.featured %}
                             <div class="item">
                                 <blockquote class="quote">
                                     <div><i class="fa fa-quote-left" style="float: left;"></i>{{ endorsement.content | markdownify }}</div>
@@ -368,21 +368,21 @@ layout: compress
                                 </p>
                             </div>
                           {% endfor  %}
-                          {% if page.cv.endorsements.more %}
-                            <p><a class="more-link" href="{{ page.cv.endorsements.more.link }}"><i class="fa fa-external-link"></i> {{ page.cv.endorsements.more.title }}</a></p>
+                          {% if site.data.endorsements.more %}
+                            <p><a class="more-link" href="{{ site.data.endorsements.more.link }}"><i class="fa fa-external-link"></i> {{ site.data.endorsements.more.title }}</a></p>
                           {% endif %}
                         </div>
                     </div>
                 </aside>
               {% endif %}
 
-              {% if page.cv.personal.interests %}
+              {% if site.data.personal.interests %}
                 <!-- INTERESTS -->
                 <aside class="interests aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.personal.interests.title }}</h2>
+                        <h2 class="heading">{{ site.data.personal.interests.title }}</h2>
                         <div class="content">
-                          {% for interest in page.cv.personal.interests.featured %}
+                          {% for interest in site.data.personal.interests.featured %}
                             <div class="item">
                                 <h3 class="title"><i class="fa fa-tags"></i> {{ interest.title }}</h3>
                                 <h4 class="tags">
@@ -397,13 +397,13 @@ layout: compress
                 </aside>
               {% endif %}
 
-              {% if page.cv.personal.feed %}
+              {% if site.data.personal.feed %}
                 <!-- RECENT POSTS -->
                 <aside class="blog aside section">
                     <div class="section-inner">
-                        <h2 class="heading">{{ page.cv.personal.feed.title }}</h2>
-						{% if page.cv.personal.feed.description %}{{ page.cv.personal.feed.description | markdownify }}{% endif %}
-                        <div id="rss-feeds" class="content" feed-url="{{ page.cv.personal.feed.link }}" feed-limit="{{ page.cv.personal.feed.limit }}" feed-effect="{{ page.cv.personal.feed.effect }}" feed-more="{{ page.cv.personal.feed.more }}">
+                        <h2 class="heading">{{ site.data.personal.feed.title }}</h2>
+						{% if site.data.personal.feed.description %}{{ site.data.personal.feed.description | markdownify }}{% endif %}
+                        <div id="rss-feeds" class="content" feed-url="{{ site.data.personal.feed.link }}" feed-limit="{{ site.data.personal.feed.limit }}" feed-effect="{{ site.data.personal.feed.effect }}" feed-more="{{ site.data.personal.feed.more }}">
                         </div>
                     </div>
                 </aside>

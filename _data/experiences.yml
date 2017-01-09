@@ -1,0 +1,123 @@
+title: Work Experience
+featured:
+  - position: Analyst Programmer
+    company: GFT
+    link: http://www.gft.com/
+    from: Jan 2015
+    to: Present
+    technologies: [J2EE, Spring, MVC, JPA, RESTful Web Services, Apache Tomcat, Oracle PL/SQL, TeamCity, Nexus, Maven, Angular.js, HTML5, CSS3, SASS, WebSockets, Node.js, NPM, Bower, Grunt]
+    content: |
+
+      Currently working at *GFT*, on the **Technology & Innovation** Professional Services Unit. My team is responsible for:
+
+      * Identification and adoption of technology trends that may benefit the company
+      * Standardization and best practices
+      * Development of frameworks to improve efficiency, scalability, robustness and reusability
+      * Transfer of technological knowledge to company projects
+
+      During the course of my roles, I am taking part in some projects for a specific German global banking and financial services company.
+
+  - position: Senior Programmer
+    company: Hewlett-Packard
+    link: http://www.hp.com/
+    from: Jan 2014
+    to: Jan 2015
+    technologies: [J2EE, Apache Tomcat, Oracle WebLogic, Web Services, SOAP, Oracle Database, Siebel CRM]
+    content: |
+
+      Working at *Hewlett-Packard*, providing services for some of the largest banking corporations in Spain.
+
+      Most of the projects on which I took part, aimed for the integration of **CRM systems** (based on Siebel) and several other external information systems. This was achieved by developing a layer of middleware based on web services.
+
+  - position: Independent game developer
+    company: Origame Studio
+    link: http://origamestudio.tumblr.com/
+    from: Jan 2013
+    to: Jan 2014
+    technologies: [Unity3D, Game Development, C#, JavaScript, 3D Modeling, Android, Google Play, AdMob]
+    content: |
+
+      During 2013 I trained as a **3D application developer**. I learned **Unity3D**, an engine with which virtual reality environments can be created for multiple platforms, computers and smartphones.
+
+      [**Kana Memory**](https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory), an educational app to learn Japanese, is the first Android game I published as an independent game studio.
+
+relevant:
+  - position: Senior Programmer
+    company: JFactory
+    link: http://www.jfactory.es/
+    from: Mar 2012
+    to: Aug 2012
+    technologies: [ J2EE, Tomcat, Apache, SSL, Web Services, REST, JSON, PostgreSQL, Dreamweaver, HTML5, CSS3]
+    content: |
+
+      Working as Senior Programmer for *JFactory*. My tasks included the development of commercial web portals for major national clients.
+
+      I was in charge of implementation and maintenance of software systems, web servers, SSL certificates, etc.
+
+  - position: Senior Programmer
+    company: IRITEC
+    link: http://www.hiberus.com/
+    from: Feb 2011
+    to: Feb 2012
+    technologies: [J2EE, MySQL, SQL Server, PHP 5, Zend, Nutch, Solr, Lucene, Tomcat, Struts, Hibernate, Spring, Web Services, SOAP, HTML5, CSS3, JavaScript]
+    content: |
+
+      Working for *IriTec* as Senior Programmer. Some of the projects I participated on: 3SME (3.0 Social Media Ecosystem), an automated analysis of the position and reputation of products, services, brands or companies in digital media, to facilitate the process of decision making. This project was a collaboration with the *ITA (Technological Institute of Aragón*) and the *University of Zaragoza*. It was supported by the *Spanish Ministry of Industry*.
+
+      Another project, for the Spanish company *Imaginarium*, involved the design and implementation of a system which integrated several digital platforms, with thousands of registered customers.
+
+  - position: Senior Programmer
+    company: CITIC
+    link: http://www.citic.es/
+    from: Jul 2007
+    to: Sep 2010
+    technologies: [Ambient intelligence, RFID, Semantic web, Ontologies, RDF, TDT, MHP, SmartCard, J2ME, C, C++, Qt, Python, Struts, Hibernate, JSP, J2EE, PostgreSQL, Web services, RPC/JSON, SOAP]
+    content: |
+
+      Working as Senior Programmer for *CITIC (Andalusian Centre of Innovation and Information Technology and Communications)*.
+
+      My duties included research, analysis, design and implementation of major software projects, both Spanish and European.
+
+      During my participation in some of the projects, I was certified by *AIDIT (Spanish Accreditation Agency for Research, Development and Technological Innovation)* as **Research Personnel on R+D+i projects**.
+
+  - position: Freelance Programmer
+    company: Neodoo Microsystems
+    link: http://www.neodoo.es/
+    from: Dec 2006
+    to: Jun 2007
+    technologies: [JBoss Application Server, Java Server Faces, EJB3, Hibernate, JBoss Seam, Web Services, SOAP]
+    content: |
+
+      Working as Freelance Programmer, J2EE expert for *Neodoo Microsystems*. The developed projects consisted of middleware (connectivity software for distributed applications), based on cutting-edge technologies.
+
+      Some of these applications are integrated into the *DBE (Digital Business Ecosystem)* platform, an intelligent network of services offered by companies from different sectors. The project is endorsed by the *Sixth Framework Programme for Research and Technological Development of the Information Society* (European Commission).
+
+  - position: Senior Programmer
+    company: Electronic Data Systems
+    link: http://wikipedia.org/wiki/Electronic_Data_Systems
+    from: Dec 2005
+    to: Dec 2006
+    technologies: [C, C++, J2SE, PL/SQL, Shell scripting]
+    content: |
+
+      Working for *EDS (Electronic Data Systems)* as Senior Programmer to develop a remarkable software project for *General Motors*.
+
+      The project took a year and I was required to stay in Detroit (United States) for a month, in order to attend some technical workshops at client's headquarters.
+
+  - position: Programmer
+    company: ACK
+    link: http://www.ack.es/
+    from: Mar 2004
+    to: Jul 2004
+    technologies: [Linux, Apache, MySQL, PHP]
+    content: Working as internship Programmer for *ACK*, developing from scratch a commercial web site, involving database access and dynamic contents, making use of *LAMP* technologies.
+other:
+  - position: Hardware Technician
+    company: Computer Zaragoza
+    link: http://www.ecomputer.es/
+    from: Mar 2002
+    to: Jul 2002
+    content: Working as internship Hardware Technician for *Computer Zaragoza* at the post-sales technical support.
+more:
+  title: More details
+  link: https://www.linkedin.com/in/guillermocalvo#background-experience-container

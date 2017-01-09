@@ -1,0 +1,49 @@
+title: Latest Projects
+otherTitle: Other Projects
+featured:
+  - title: Kana Memory
+    subtitle: Have fun studying **Japanese**! Play this **memory game** to learn Hiragana & Katakana.
+    more:
+      title: <i class="fa fa-play-circle"></i> View on Google Play
+      link: https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory
+    label: 3D GAME
+    image: /assets/images/projects/kana-memory.png
+    content: |
+      **Kana Memory** is [Origame Studio](http://origamestudio.tumblr.com/)'s first published game for *Android* platform.
+      It is a memory game which lets you learn Japanese by playing it.
+
+      ![](/assets/images/projects/kana-memory-2.png)
+
+      This app is available for free on *Google Play* and translated to several languages.
+      Currently hundreds of people around the world use it.
+relevant:
+  - title: exceptions4c
+    more:
+      title: Find out more
+      link: http://exceptions4c.guillermo.in/
+    label: Open Source
+    image: /assets/images/projects/exceptions4c.png
+    content: A **C library for error handling** through exceptions. Among other functionalities, it lets the developer handle error signals sent by the operative system to the program (such as *division by zero*). It is portable and supports multi-threading.
+  - title: AdMobPlugin For Unity
+    more:
+      title: View on GitHub
+      link: https://github.com/guillermocalvo/admob-unity-plugin
+    label: Open Source
+    image: /assets/images/projects/admob-unity-plugin.png
+    content: An **extension for Unity3d** which allows you to place *Google AdMob* banners in your *Android* games.
+other:
+  - title: JSON-RPC For Java
+    more:
+      title: View on SourceForge
+      link: http://sourceforge.net/projects/jsonrpc4java/
+    label: Open Source
+    content: A **Java 2 Enterprise Edition** library to invoke remote procedures over the **JSON-RPC** protocol from Java applications. It lets the developer to define which fields of a class must be serialized using annotations.
+  - title: J2ME File System
+    more:
+      title: Read more
+      link: http://j2mefs.sourceforge.net/
+    label: Open Source
+    content: A **Java 2 Micro Edition** library which improves the **RMS (Record Management System)** for MIDlet developers. With J2MEFS, the data can be stored easily on microdevices, using convenient names and directory trees.
+more:
+  title: More projects
+  link: https://www.linkedin.com/in/guillermocalvo#background-projects-container

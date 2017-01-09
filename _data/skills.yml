@@ -1,0 +1,28 @@
+title: Skills
+intro: |
+  These are some of my skills.
+
+  I try to learn as many technologies as I can, so I can use **the best tool for the job**.
+featured:
+  - title: J2EE App. Development
+    level: Expert
+    value: 96%
+  - title: Struts, Spring, Hibernate, SOAP
+    level: Expert
+    value: 92%
+  - title: HTML5, CSS3, JavaScript, REST
+    level: Pro
+    value: 82%
+  - title: Oracle PL/SQL
+    level: Pro
+    value: 78%
+  - title: C#, PHP, Python, Ruby, Go
+    level: Skilled
+    value: 65%
+other:
+  - title: C
+    level: Expert
+    value: 96%
+more:
+  title: More skills
+  link: https://www.linkedin.com/in/guillermocalvo#background-skills-container
