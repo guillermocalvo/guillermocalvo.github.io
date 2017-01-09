@@ -324,7 +324,7 @@ layout: compress
                         <div class="content">
                           {% for certification in site.data.certifications.featured %}
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-certificate"></i> {{ certification.title }}</h3>
+                                <h3 class="title"><i class="fa fa-certificate"></i> {{ certification.title }}<br>{{ certification.subtitle }}</h3>
                                 <h4 class="by">{{ certification.by }} <span class="year">({{ certification.when }})</span></h4>
                             </div>
                           {% endfor %}
