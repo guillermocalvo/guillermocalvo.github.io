@@ -263,7 +263,7 @@ layout: compress
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>{{ page.cv.personal.location }}</li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span><a href="{{ page.cv.personal.location.link }}">{{ page.cv.personal.location.title }}</a></li>
                                 <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:{{ page.cv.personal.email }}">{{ page.cv.personal.email }}</a></li>
                                 <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="{{ page.cv.personal.website.link }}">{{ page.cv.personal.website.title }}</a></li>
                             </ul>

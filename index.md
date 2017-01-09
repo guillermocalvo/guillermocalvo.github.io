@@ -49,7 +49,9 @@ cv:
     title: About Me
     name: Guillermo Calvo
     desc: Software Developer
-    location: Tokyo, Japan
+    location:
+      title: Within 23 wards, Tokyo, Japan
+      link: https://www.google.com/maps/search/Tokyo
     email: cv@guillermo.in
     website:
       title: guillermo.in
