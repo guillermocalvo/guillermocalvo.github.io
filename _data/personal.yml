@@ -15,7 +15,7 @@ contact:
 feed:
   title: Recent Posts
   description: These are some of the latest posts from my blog [Simius Ex Machina](http://guillermo.in/).
-  link: http://guillermo.in/feed/coding.xml
+  link: https://guillermo.in/feed.xml
   limit: 2
   effect: slideFastSynced
   more: Read more
