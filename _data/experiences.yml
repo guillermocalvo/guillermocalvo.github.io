@@ -1,14 +1,32 @@
 title: Work Experience
 featured:
+  - position: Software Engineer
+    company: Rakuten
+    link: https://corp.rakuten.co.jp/
+    from: Oct 2016
+    to: Present
+    technologies: [J2EE, Javascript, HTML5, CSS3, Glassfish, Weblogic, Exalogic, Shell scripting, Maven, Jenkins, SonarQube, TestRail, JIRA, Bitbucket]
+    content: |
+
+      Currently working at *Rakuten*, in **Checkout Team** of [Rakuten Ichiba](https://www.rakuten.co.jp), Japan's biggest shopping mall.
+
+      Our team is in charge of one of the most critical parts of the e-commerce. Checkout is the process a customer must go through when checking out the items in the cart.
+
+      My responsibilities include:
+
+      * Development, system design and implementation of web applications
+      * Operations, release managment, system maintenance
+      * Investigation of any issues in production servers
+
   - position: Analyst Programmer
     company: GFT
     link: http://www.gft.com/
     from: Jan 2015
-    to: Present
+    to: Sep 2016
     technologies: [J2EE, Spring, MVC, JPA, RESTful Web Services, Apache Tomcat, Oracle PL/SQL, TeamCity, Nexus, Maven, Angular.js, HTML5, CSS3, SASS, WebSockets, Node.js, NPM, Bower, Grunt]
     content: |
 
-      Currently working at *GFT*, on the **Technology & Innovation** Professional Services Unit. My team is responsible for:
+      Working at *GFT*, on the **Technology & Innovation** Professional Services Unit. My team is responsible for:
 
       * Identification and adoption of technology trends that may benefit the company
       * Standardization and best practices
