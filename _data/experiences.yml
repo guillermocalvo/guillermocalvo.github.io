@@ -26,14 +26,14 @@ featured:
     technologies: [J2EE, Spring, MVC, JPA, RESTful Web Services, Apache Tomcat, Oracle PL/SQL, TeamCity, Nexus, Maven, Angular.js, HTML5, CSS3, SASS, WebSockets, Node.js, NPM, Bower, Grunt]
     content: |
 
-      Working at *GFT*, on the **Technology & Innovation** Professional Services Unit. My team is responsible for:
+      Working at *GFT*, on the **Technology & Innovation** Professional Services Unit. My team was responsible for:
 
       * Identification and adoption of technology trends that may benefit the company
       * Standardization and best practices
       * Development of frameworks to improve efficiency, scalability, robustness and reusability
       * Transfer of technological knowledge to company projects
 
-      During the course of my roles, I am taking part in some projects for a specific German global banking and financial services company.
+      During the course of my roles, I took part in some projects for a specific German global banking and financial services company.
 
   - position: Senior Programmer
     company: Hewlett-Packard
@@ -45,7 +45,7 @@ featured:
 
       Working at *Hewlett-Packard*, providing services for some of the largest banking corporations in Spain.
 
-      Most of the projects on which I took part, aimed for the integration of **CRM systems** (based on Siebel) and several other external information systems. This was achieved by developing a layer of middleware based on web services.
+      Most of the projects on which I took part, aimed for the integration of **CRM systems** (based on [Siebel](http://www.oracle.com/siebel)) and several other external information systems. This was achieved by developing a layer of middleware based on web services.
 
   - position: Independent game developer
     company: Origame Studio
@@ -55,7 +55,7 @@ featured:
     technologies: [Unity3D, Game Development, C#, JavaScript, 3D Modeling, Android, Google Play, AdMob]
     content: |
 
-      During 2013 I trained as a **3D application developer**. I learned **Unity3D**, an engine with which virtual reality environments can be created for multiple platforms, computers and smartphones.
+      During 2013 I trained as a **3D application developer**. I learned [**Unity3D**](https://unity3d.com/), an engine with which virtual reality environments can be created for multiple platforms, computers and smartphones.
 
       [**Kana Memory**](https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory), an educational app to learn Japanese, is the first Android game I published as an independent game studio.
 
@@ -80,9 +80,9 @@ relevant:
     technologies: [J2EE, MySQL, SQL Server, PHP 5, Zend, Nutch, Solr, Lucene, Tomcat, Struts, Hibernate, Spring, Web Services, SOAP, HTML5, CSS3, JavaScript]
     content: |
 
-      Working for *IriTec* as Senior Programmer. Some of the projects I participated on: 3SME (3.0 Social Media Ecosystem), an automated analysis of the position and reputation of products, services, brands or companies in digital media, to facilitate the process of decision making. This project was a collaboration with the *ITA (Technological Institute of Aragón*) and the *University of Zaragoza*. It was supported by the *Spanish Ministry of Industry*.
+      Working for *IriTec* as Senior Programmer. Some of the projects I participated on: 3SME (3.0 Social Media Ecosystem), an automated analysis of the position and reputation of products, services, brands or companies in digital media, to facilitate the process of decision making. This project was a collaboration with the [*ITA*](http://www.itainnova.es/) (Technological Institute of Aragón) and the [*University of Zaragoza*](https://www.unizar.es/). It was supported by the [*Spanish Ministry of Industry*](http://www.minetad.gob.es/).
 
-      Another project, for the Spanish company *Imaginarium*, involved the design and implementation of a system which integrated several digital platforms, with thousands of registered customers.
+      Another project, for the Spanish company [*Imaginarium*](https://www.imaginarium.es/), involved the design and implementation of a system which integrated several digital platforms, with thousands of registered customers.
 
   - position: Senior Programmer
     company: CITIC
@@ -96,7 +96,7 @@ relevant:
 
       My duties included research, analysis, design and implementation of major software projects, both Spanish and European.
 
-      During my participation in some of the projects, I was certified by *AIDIT (Spanish Accreditation Agency for Research, Development and Technological Innovation)* as **Research Personnel on R+D+i projects**.
+      During my participation in some of the projects, I was certified by *[AIDIT](http://www.e-aidit.com/) (Spanish Accreditation Agency for Research, Development and Technological Innovation)* as **Research Personnel on R+D+i projects**.
 
   - position: Freelance Programmer
     company: Neodoo Microsystems
@@ -108,7 +108,7 @@ relevant:
 
       Working as Freelance Programmer, J2EE expert for *Neodoo Microsystems*. The developed projects consisted of middleware (connectivity software for distributed applications), based on cutting-edge technologies.
 
-      Some of these applications are integrated into the *DBE (Digital Business Ecosystem)* platform, an intelligent network of services offered by companies from different sectors. The project is endorsed by the *Sixth Framework Programme for Research and Technological Development of the Information Society* (European Commission).
+      Some of these applications are integrated into the [**DBE**](http://cordis.europa.eu/project/rcn/71142_en.html) (Digital Business Ecosystem) platform, an intelligent network of services offered by companies from different sectors. The project was endorsed by the [*Sixth Framework Programme for Research and Technological Development of the Information Society*](https://ec.europa.eu/research/fp6/) (European Commission).
 
   - position: Senior Programmer
     company: Electronic Data Systems
@@ -118,7 +118,7 @@ relevant:
     technologies: [C, C++, J2SE, PL/SQL, Shell scripting]
     content: |
 
-      Working for *EDS (Electronic Data Systems)* as Senior Programmer to develop a remarkable software project for *General Motors*.
+      Working for *EDS (Electronic Data Systems)* as Senior Programmer to develop a remarkable software project for [*General Motors*](http://www.gm.com/).
 
       The project took a year and I was required to stay in Detroit (United States) for a month, in order to attend some technical workshops at client's headquarters.
 
