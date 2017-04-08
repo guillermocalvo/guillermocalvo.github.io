@@ -39,7 +39,7 @@ open_graph:
 twitter_cards:
   title: Guillermo Calvo - Curriculum Vitae
   description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
-  creator: guillermonkey
+  creator: gcalvo
   card: summary_large_image
   image: /assets/images/thumb.png
 
