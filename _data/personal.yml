@@ -6,16 +6,16 @@ location:
   link: https://www.google.com/maps/search/Tokyo
 email: cv@guillermo.in
 website:
-  title: www.guillermo.in
-  link: http://guillermo.in/
+  title: Leaky Abstractions
+  link: https://leakyabstractions.com/
 image: /assets/images/guillermo.png
 contact:
   title: Contact Me
-  link: mailto:cv@guillermo.in
+  link: mailto:contact@guillermo.in
 feed:
   title: Recent Posts
-  description: These are some of the latest posts from my blog [Simius Ex Machina](http://guillermo.in/).
-  link: https://guillermo.in/feed.xml
+  description: These are some of the latest posts from my blog [Leaky Abstractions](http://leakyabstractions.com/).
+  link: https://leakyabstractions.com/feed.xml
   limit: 2
   effect: slideFastSynced
   more: Read more
