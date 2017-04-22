@@ -4,3 +4,5 @@ description: Guillermo Calvo - Curriculum Vitae.
 baseurl:
 url: https://resume.guillermo.in
 markdown: kramdown
+include:
+  - _redirects
