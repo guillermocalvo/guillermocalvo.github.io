@@ -5,7 +5,7 @@ featured:
     subtitle: Have fun studying **Japanese**! Play this **memory game** to learn Hiragana & Katakana.
     more:
       title: <i class="fa fa-play-circle"></i> View on Google Play
-      link: https://play.google.com/apps/testing/com.origamestudio.memorizekana
+      link: https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana
     label: 3D GAME
     image: /assets/images/projects/kana-memory.png
     content: |
@@ -14,7 +14,7 @@ featured:
 
       ![](/assets/images/projects/kana-memory-2.png)
 
-      This app is [available for free on **Google Play**](https://play.google.com/apps/testing/com.origamestudio.memorizekana) and translated to several languages.
+      This app is [available for free on **Google Play**](https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana) and translated to several languages.
 
       **Memorize Kana** is *open source*; it was developed with [**Unity**](https://unity3d.com/ "Unity game development platform") and [the source code can be accessed at **GitHub**](https://github.com/OrigameStudio/KanaMemory).
 
