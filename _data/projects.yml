@@ -40,38 +40,38 @@ relevant:
       portable and supports multi-threading.
     image: /assets/images/projects/exceptions4c.png
     label: Open Source
+    title: exceptions4c
     more:
       link: 'http://exceptions4c.guillermo.in/'
       title: Find out more
-    title: exceptions4c
   - content: >-
       An **extension for Unity3d** which allows you to place *Google AdMob*
       banners in your *Android* games.
     image: /assets/images/projects/admob-unity-plugin.png
     label: Open Source
+    title: AdMobPlugin For Unity
     more:
       link: 'https://github.com/guillermocalvo/admob-unity-plugin'
       title: View on GitHub
-    title: AdMobPlugin For Unity
 other:
   - content: >-
       A **Java 2 Enterprise Edition** library to invoke remote procedures over
       the **JSON-RPC** protocol from Java applications. It lets the developer to
       define which fields of a class must be serialized using annotations.
     label: Open Source
+    title: JSON-RPC For Java
     more:
       link: 'http://sourceforge.net/projects/jsonrpc4java/'
       title: View on SourceForge
-    title: JSON-RPC For Java
   - content: >-
       A **Java 2 Micro Edition** library which improves the **RMS (Record
       Management System)** for MIDlet developers. With J2MEFS, the data can be
       stored easily on microdevices, using convenient names and directory trees.
     label: Open Source
+    title: J2ME File System
     more:
       link: 'http://j2mefs.sourceforge.net/'
       title: Read more
-    title: J2ME File System
 more:
   link: 'https://www.linkedin.com/in/guillermocalvo#background-projects-container'
   title: More projects

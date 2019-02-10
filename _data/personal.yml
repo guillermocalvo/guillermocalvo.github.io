@@ -13,6 +13,7 @@ contact:
   link: 'mailto:contact@guillermo.in'
   title: Contact Me
 feed:
+  title: Recent Posts
   description: >-
     These are some of the latest posts from my blog [Leaky
     Abstractions](http://leakyabstractions.com/).
@@ -20,7 +21,6 @@ feed:
   limit: '2'
   link: 'https://leakyabstractions.com/feed.xml'
   more: Read more
-  title: Recent Posts
 interests:
   featured:
     - tags:

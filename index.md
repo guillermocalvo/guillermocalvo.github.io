@@ -47,12 +47,12 @@ open_graph:
 twitter_cards:
   card: summary_large_image
   creator: gcalvo
+  image: /assets/images/thumb.png
+  title: Guillermo Calvo - Curriculum Vitae
   description: >-
     Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a
     Senior Programmer in several platforms: desktop applications, middleware,
     web apps, e-commerce, smart phones, video games…
-  image: /assets/images/thumb.png
-  title: Guillermo Calvo - Curriculum Vitae
 ---
 
 I'm a **Software Developer** with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games, etc. Any related technology is of interest to me.
