@@ -5,14 +5,29 @@ description: Guillermo Calvo - Curriculum Vitae
 author: Guillermo Calvo
 
 favicons:
-  - # 16x16
+  - # Default
     rel: shortcut icon
-    href: /assets/images/favicon.ico
+    href: /favicon.ico
     type: image/x-icon
+  - # 16x16
+    rel: icon
+    sizes: 16x16
+    href: /assets/images/favicon-16x16.png
+    type: image/png
+  - # 32x32
+    rel: icon
+    sizes: 32x32
+    href: /assets/images/favicon-32x32.png
+    type: image/png
   - # 64x64
-    rel: shortcut icon
+    rel: icon
     sizes: 64x64
     href: /assets/images/favicon-64x64.png
+    type: image/png
+  - # 128x128
+    rel: icon
+    sizes: 64x64
+    href: /assets/images/favicon-128x128.png
     type: image/png
   - # Android Chrome
     rel: icon
