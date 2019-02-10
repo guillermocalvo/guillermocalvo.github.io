@@ -21,7 +21,7 @@
     margin-top: 0
 }
 
-.certifications .item .by {
+.certifications .item .issuer {
     font-family: "Lato", arial, sans-serif;
     font-size: 13px;
     color: #999999;
@@ -29,7 +29,7 @@
     padding-left: 25px
 }
 
-.certifications .item .by .year {
+.certifications .item .issuer .year {
     color: #b0b7bf;
     font-weight: 500
 }

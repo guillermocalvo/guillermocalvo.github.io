@@ -2,24 +2,24 @@ title: Certifications
 featured:
   - title: Java SE 6 Programmer
     subtitle: Oracle Certified Professional
-    by: Oracle University
+    issuer: Oracle University
     when: 2014
   - title: JLPT Level N5
     subtitle: Japanese-Language Proficiency Test
-    by: Japan Foundation and Japan Educational Exchanges and Services
+    issuer: Japan Foundation and Japan Educational Exchanges and Services
     when: 2014
   - title: Research Personnel
     subtitle: On R+D+i projects
-    by: AIDIT, Spanish Accreditation Agency in Research, Development and Technological Innovation
+    issuer: AIDIT, Spanish Accreditation Agency in Research, Development and Technological Innovation
     when: 2010
 other:
   - title: PL/SQL 8i Application Development
     subtitle: Diploma
-    by: Oracle University
+    issuer: Oracle University
     when: 2004
   - title: Developing Forms with Form Builder v6
     subtitle: Diploma
-    by: Oracle University
+    issuer: Oracle University
     when: 2003
 more:
   title: More certifications
