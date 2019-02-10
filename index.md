@@ -3,61 +3,50 @@ layout: curriculum
 title: Guillermo Calvo
 description: Guillermo Calvo - Curriculum Vitae
 author: Guillermo Calvo
-
 favicons:
-  - # Default
+  - href: /favicon.ico
     rel: shortcut icon
-    href: /favicon.ico
     type: image/x-icon
-  - # 16x16
+  - href: /assets/images/favicon-16x16.png
     rel: icon
     sizes: 16x16
-    href: /assets/images/favicon-16x16.png
     type: image/png
-  - # 32x32
+  - href: /assets/images/favicon-32x32.png
     rel: icon
     sizes: 32x32
-    href: /assets/images/favicon-32x32.png
     type: image/png
-  - # 64x64
+  - href: /assets/images/favicon-64x64.png
     rel: icon
     sizes: 64x64
-    href: /assets/images/favicon-64x64.png
     type: image/png
-  - # 128x128
+  - href: /assets/images/favicon-128x128.png
     rel: icon
     sizes: 64x64
-    href: /assets/images/favicon-128x128.png
     type: image/png
-  - # Android Chrome
+  - href: /assets/images/guillermo.png
     rel: icon
-    href: /assets/images/guillermo.png
     sizes: 180x180
     type: image/png
-  - # 180x180 Apple Touch icon (for iPhone 6 Plus; other device will scale it down as needed)
+  - href: /assets/images/guillermo.png
     rel: apple-touch-icon
-    href: /assets/images/guillermo.png
     sizes: 180x180
     type: image/png
-
 open_graph:
+  description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
+  first_name: Guillermo
+  gender: male
+  image: /assets/images/thumb.png
+  last_name: Calvo
+  locale: en_US
+  site_name: Guillermo Calvo - Curriculum Vitae
   title: Guillermo Calvo
   username: guillermocalvo
-  first_name: Guillermo
-  last_name: Calvo
-  gender: male
-  site_name: Guillermo Calvo - Curriculum Vitae
-  description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
-  locale: en_US
-  image: /assets/images/thumb.png
-
 twitter_cards:
-  title: Guillermo Calvo - Curriculum Vitae
-  description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
-  creator: gcalvo
   card: summary_large_image
+  creator: gcalvo
+  description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
   image: /assets/images/thumb.png
-
+  title: Guillermo Calvo - Curriculum Vitae
 ---
 
 I'm a **Software Developer** with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games, etc. Any related technology is of interest to me.

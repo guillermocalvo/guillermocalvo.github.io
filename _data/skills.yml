@@ -4,25 +4,25 @@ intro: |
 
   I try to learn as many technologies as I can, so I can use **the best tool for the job**.
 featured:
-  - title: J2EE App. Development
-    level: Expert
+  - level: Expert
+    title: J2EE App. Development
     value: 96%
-  - title: Struts, Spring, Hibernate, SOAP
-    level: Expert
+  - level: Expert
+    title: Struts, Spring, Hibernate, SOAP
     value: 92%
-  - title: HTML5, CSS3, JavaScript, REST
-    level: Pro
+  - level: Pro
+    title: HTML5, CSS3, JavaScript, REST
     value: 82%
-  - title: Oracle PL/SQL
-    level: Pro
+  - level: Pro
+    title: Oracle PL/SQL
     value: 78%
-  - title: C#, PHP, Python, Ruby, Go
-    level: Skilled
+  - level: Skilled
+    title: C#, PHP, Python, Ruby, Go
     value: 65%
 other:
-  - title: C
-    level: Expert
+  - level: Expert
+    title: C
     value: 96%
 more:
-  title: More skills
   link: https://www.linkedin.com/in/guillermocalvo#background-skills-container
+  title: More skills

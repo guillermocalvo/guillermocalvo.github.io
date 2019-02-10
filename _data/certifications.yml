@@ -1,26 +1,26 @@
 title: Certifications
 featured:
-  - title: Java SE 6 Programmer
+  - issuer: Oracle University
     subtitle: Oracle Certified Professional
-    issuer: Oracle University
+    title: Java SE 6 Programmer
     when: 2014
-  - title: JLPT Level N5
+  - issuer: Japan Foundation and Japan Educational Exchanges and Services
     subtitle: Japanese-Language Proficiency Test
-    issuer: Japan Foundation and Japan Educational Exchanges and Services
+    title: JLPT Level N5
     when: 2014
-  - title: Research Personnel
+  - issuer: AIDIT, Spanish Accreditation Agency in Research, Development and Technological Innovation
     subtitle: On R+D+i projects
-    issuer: AIDIT, Spanish Accreditation Agency in Research, Development and Technological Innovation
+    title: Research Personnel
     when: 2010
 other:
-  - title: PL/SQL 8i Application Development
+  - issuer: Oracle University
     subtitle: Diploma
-    issuer: Oracle University
+    title: PL/SQL 8i Application Development
     when: 2004
-  - title: Developing Forms with Form Builder v6
+  - issuer: Oracle University
     subtitle: Diploma
-    issuer: Oracle University
+    title: Developing Forms with Form Builder v6
     when: 2003
 more:
-  title: More certifications
   link: https://www.linkedin.com/in/guillermocalvo#background-certifications-container
+  title: More certifications
