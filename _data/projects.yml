@@ -1,31 +1,52 @@
 title: Latest Projects
 otherTitle: Other Projects
 featured:
-  - content: |
-      **Memorize Kana**, formerly **Kana Memory**, is [**Origame Studio**](http://origamestudio.tumblr.com/)'s first published game for *Android*.
-      It is a memory game which helps you memorize Kana (syllabic Japanese scripts) as you play.
+  - content: >
+      **Memorize Kana**, formerly **Kana Memory**, is [**Origame
+      Studio**](http://origamestudio.tumblr.com/)'s first published game for
+      *Android*.
+
+      It is a memory game which helps you memorize Kana (syllabic Japanese
+      scripts) as you play.
+
 
       ![](/assets/images/projects/kana-memory-2.png)
 
-      This app is [available for free on **Google Play**](https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana) and translated to several languages.
 
-      **Memorize Kana** is *open source*; it was developed with [**Unity**](https://unity3d.com/ "Unity game development platform") and [the source code can be accessed at **GitHub**](https://github.com/OrigameStudio/KanaMemory).
+      This app is [available for free on **Google
+      Play**](https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana)
+      and translated to several languages.
+
+
+      **Memorize Kana** is *open source*; it was developed with
+      [**Unity**](https://unity3d.com/ "Unity game development platform") and
+      [the source code can be accessed at
+      **GitHub**](https://github.com/OrigameStudio/KanaMemory).
     image: /assets/images/projects/kana-memory.png
     label: 3D GAME
     more:
-      link: 'https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana'
+      link: >-
+        https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana
       title: <i class="fa fa-play-circle"></i> View on Google Play
-    subtitle: Have fun studying **Japanese**! Play this **memory game** to learn Hiragana & Katakana.
+    subtitle: >-
+      Have fun studying **Japanese**! Play this **memory game** to learn
+      Hiragana & Katakana.
     title: Memorize Kana
 relevant:
-  - content: A **C library for error handling** through exceptions. Among other functionalities, it lets the developer handle error signals sent by the operative system to the program (such as *division by zero*). It is portable and supports multi-threading.
+  - content: >-
+      A **C library for error handling** through exceptions. Among other
+      functionalities, it lets the developer handle error signals sent by the
+      operative system to the program (such as *division by zero*). It is
+      portable and supports multi-threading.
     image: /assets/images/projects/exceptions4c.png
     label: Open Source
     more:
       link: 'http://exceptions4c.guillermo.in/'
       title: Find out more
     title: exceptions4c
-  - content: An **extension for Unity3d** which allows you to place *Google AdMob* banners in your *Android* games.
+  - content: >-
+      An **extension for Unity3d** which allows you to place *Google AdMob*
+      banners in your *Android* games.
     image: /assets/images/projects/admob-unity-plugin.png
     label: Open Source
     more:
@@ -33,13 +54,19 @@ relevant:
       title: View on GitHub
     title: AdMobPlugin For Unity
 other:
-  - content: A **Java 2 Enterprise Edition** library to invoke remote procedures over the **JSON-RPC** protocol from Java applications. It lets the developer to define which fields of a class must be serialized using annotations.
+  - content: >-
+      A **Java 2 Enterprise Edition** library to invoke remote procedures over
+      the **JSON-RPC** protocol from Java applications. It lets the developer to
+      define which fields of a class must be serialized using annotations.
     label: Open Source
     more:
       link: 'http://sourceforge.net/projects/jsonrpc4java/'
       title: View on SourceForge
     title: JSON-RPC For Java
-  - content: A **Java 2 Micro Edition** library which improves the **RMS (Record Management System)** for MIDlet developers. With J2MEFS, the data can be stored easily on microdevices, using convenient names and directory trees.
+  - content: >-
+      A **Java 2 Micro Edition** library which improves the **RMS (Record
+      Management System)** for MIDlet developers. With J2MEFS, the data can be
+      stored easily on microdevices, using convenient names and directory trees.
     label: Open Source
     more:
       link: 'http://j2mefs.sourceforge.net/'

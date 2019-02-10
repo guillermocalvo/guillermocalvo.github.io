@@ -1,16 +1,24 @@
 title: Work Experience
 featured:
   - company: Rakuten
-    content: |
+    content: >
 
-      Currently working at *Rakuten*, in **Checkout Team** of [Rakuten Ichiba](https://www.rakuten.co.jp), Japan's biggest shopping mall.
+      Currently working at *Rakuten*, in **Checkout Team** of [Rakuten
+      Ichiba](https://www.rakuten.co.jp), Japan's biggest shopping mall.
 
-      Our team is in charge of one of the most critical parts of the e-commerce. Checkout is the process a customer must go through when checking out the items in the cart.
+
+      Our team is in charge of one of the most critical parts of the e-commerce.
+      Checkout is the process a customer must go through when checking out the
+      items in the cart.
+
 
       My responsibilities include:
 
+
       * Development, system design and implementation of web applications
+
       * Operations, release managment, system maintenance
+
       * Investigation of any issues in production servers
     duration_from: Oct 2016
     duration_to: Present
@@ -32,16 +40,25 @@ featured:
       - JIRA
       - Bitbucket
   - company: GFT
-    content: |
+    content: >
 
-      Working at *GFT*, on the **Technology & Innovation** Professional Services Unit. My team was responsible for:
+      Working at *GFT*, on the **Technology & Innovation** Professional Services
+      Unit. My team was responsible for:
 
-      * Identification and adoption of technology trends that may benefit the company
+
+      * Identification and adoption of technology trends that may benefit the
+      company
+
       * Standardization and best practices
-      * Development of frameworks to improve efficiency, scalability, robustness and reusability
+
+      * Development of frameworks to improve efficiency, scalability, robustness
+      and reusability
+
       * Transfer of technological knowledge to company projects
 
-      During the course of my roles, I took part in some projects for a specific German global banking and financial services company.
+
+      During the course of my roles, I took part in some projects for a specific
+      German global banking and financial services company.
     duration_from: Jan 2015
     duration_to: Sep 2016
     link: 'http://www.gft.com/'
@@ -67,11 +84,16 @@ featured:
       - Bower
       - Grunt
   - company: Hewlett-Packard
-    content: |
+    content: >
 
-      Working at *Hewlett-Packard*, providing services for some of the largest banking corporations in Spain.
+      Working at *Hewlett-Packard*, providing services for some of the largest
+      banking corporations in Spain.
 
-      Most of the projects on which I took part, aimed for the integration of **CRM systems** (based on [Siebel](http://www.oracle.com/siebel)) and several other external information systems. This was achieved by developing a layer of middleware based on web services.
+
+      Most of the projects on which I took part, aimed for the integration of
+      **CRM systems** (based on [Siebel](http://www.oracle.com/siebel)) and
+      several other external information systems. This was achieved by
+      developing a layer of middleware based on web services.
     duration_from: Jan 2014
     duration_to: Jan 2015
     link: 'http://www.hp.com/'
@@ -85,11 +107,18 @@ featured:
       - Oracle Database
       - Siebel CRM
   - company: Origame Studio
-    content: |
+    content: >
 
-      During 2013 I trained as a **3D application developer**. I learned [**Unity3D**](https://unity3d.com/), an engine with which virtual reality environments can be created for multiple platforms, computers and smartphones.
+      During 2013 I trained as a **3D application developer**. I learned
+      [**Unity3D**](https://unity3d.com/), an engine with which virtual reality
+      environments can be created for multiple platforms, computers and
+      smartphones.
 
-      [**Kana Memory**](https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory), an educational app to learn Japanese, is the first Android game I published as an independent game studio.
+
+      [**Kana
+      Memory**](https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory),
+      an educational app to learn Japanese, is the first Android game I
+      published as an independent game studio.
     duration_from: Jan 2013
     duration_to: Jan 2014
     link: 'http://origamestudio.tumblr.com/'
@@ -105,11 +134,14 @@ featured:
       - AdMob
 relevant:
   - company: JFactory
-    content: |
+    content: >
 
-      Working as Senior Programmer for *JFactory*. My tasks included the development of commercial web portals for major national clients.
+      Working as Senior Programmer for *JFactory*. My tasks included the
+      development of commercial web portals for major national clients.
 
-      I was in charge of implementation and maintenance of software systems, web servers, SSL certificates, etc.
+
+      I was in charge of implementation and maintenance of software systems, web
+      servers, SSL certificates, etc.
     duration_from: Mar 2012
     duration_to: Aug 2012
     link: 'http://www.jfactory.es/'
@@ -127,11 +159,22 @@ relevant:
       - HTML5
       - CSS3
   - company: IRITEC
-    content: |
+    content: >
 
-      Working for *IriTec* as Senior Programmer. Some of the projects I participated on: 3SME (3.0 Social Media Ecosystem), an automated analysis of the position and reputation of products, services, brands or companies in digital media, to facilitate the process of decision making. This project was a collaboration with the [*ITA*](http://www.itainnova.es/) (Technological Institute of Aragón) and the [*University of Zaragoza*](https://www.unizar.es/). It was supported by the [*Spanish Ministry of Industry*](http://www.minetad.gob.es/).
+      Working for *IriTec* as Senior Programmer. Some of the projects I
+      participated on: 3SME (3.0 Social Media Ecosystem), an automated analysis
+      of the position and reputation of products, services, brands or companies
+      in digital media, to facilitate the process of decision making. This
+      project was a collaboration with the [*ITA*](http://www.itainnova.es/)
+      (Technological Institute of Aragón) and the [*University of
+      Zaragoza*](https://www.unizar.es/). It was supported by the [*Spanish
+      Ministry of Industry*](http://www.minetad.gob.es/).
 
-      Another project, for the Spanish company [*Imaginarium*](https://www.imaginarium.es/), involved the design and implementation of a system which integrated several digital platforms, with thousands of registered customers.
+
+      Another project, for the Spanish company
+      [*Imaginarium*](https://www.imaginarium.es/), involved the design and
+      implementation of a system which integrated several digital platforms,
+      with thousands of registered customers.
     duration_from: Feb 2011
     duration_to: Feb 2012
     link: 'http://www.hiberus.com/'
@@ -155,13 +198,20 @@ relevant:
       - CSS3
       - JavaScript
   - company: CITIC
-    content: |
+    content: >
 
-      Working as Senior Programmer for *CITIC (Andalusian Centre of Innovation and Information Technology and Communications)*.
+      Working as Senior Programmer for *CITIC (Andalusian Centre of Innovation
+      and Information Technology and Communications)*.
 
-      My duties included research, analysis, design and implementation of major software projects, both Spanish and European.
 
-      During my participation in some of the projects, I was certified by *[AIDIT](http://www.e-aidit.com/) (Spanish Accreditation Agency for Research, Development and Technological Innovation)* as **Research Personnel on R+D+i projects**.
+      My duties included research, analysis, design and implementation of major
+      software projects, both Spanish and European.
+
+
+      During my participation in some of the projects, I was certified by
+      *[AIDIT](http://www.e-aidit.com/) (Spanish Accreditation Agency for
+      Research, Development and Technological Innovation)* as **Research
+      Personnel on R+D+i projects**.
     duration_from: Jul 2007
     duration_to: Sep 2010
     link: 'http://www.citic.es/'
@@ -189,11 +239,20 @@ relevant:
       - RPC/JSON
       - SOAP
   - company: Neodoo Microsystems
-    content: |
+    content: >
 
-      Working as Freelance Programmer, J2EE expert for *Neodoo Microsystems*. The developed projects consisted of middleware (connectivity software for distributed applications), based on cutting-edge technologies.
+      Working as Freelance Programmer, J2EE expert for *Neodoo Microsystems*.
+      The developed projects consisted of middleware (connectivity software for
+      distributed applications), based on cutting-edge technologies.
 
-      Some of these applications are integrated into the [**DBE**](http://cordis.europa.eu/project/rcn/71142_en.html) (Digital Business Ecosystem) platform, an intelligent network of services offered by companies from different sectors. The project was endorsed by the [*Sixth Framework Programme for Research and Technological Development of the Information Society*](https://ec.europa.eu/research/fp6/) (European Commission).
+
+      Some of these applications are integrated into the
+      [**DBE**](http://cordis.europa.eu/project/rcn/71142_en.html) (Digital
+      Business Ecosystem) platform, an intelligent network of services offered
+      by companies from different sectors. The project was endorsed by the
+      [*Sixth Framework Programme for Research and Technological Development of
+      the Information Society*](https://ec.europa.eu/research/fp6/) (European
+      Commission).
     duration_from: Dec 2006
     duration_to: Jun 2007
     link: 'http://www.neodoo.es/'
@@ -207,11 +266,16 @@ relevant:
       - Web Services
       - SOAP
   - company: Electronic Data Systems
-    content: |
+    content: >
 
-      Working for *EDS (Electronic Data Systems)* as Senior Programmer to develop a remarkable software project for [*General Motors*](http://www.gm.com/).
+      Working for *EDS (Electronic Data Systems)* as Senior Programmer to
+      develop a remarkable software project for [*General
+      Motors*](http://www.gm.com/).
 
-      The project took a year and I was required to stay in Detroit (United States) for a month, in order to attend some technical workshops at client's headquarters.
+
+      The project took a year and I was required to stay in Detroit (United
+      States) for a month, in order to attend some technical workshops at
+      client's headquarters.
     duration_from: Dec 2005
     duration_to: Dec 2006
     link: 'http://wikipedia.org/wiki/Electronic_Data_Systems'
@@ -223,7 +287,10 @@ relevant:
       - PL/SQL
       - Shell scripting
   - company: ACK
-    content: Working as internship Programmer for *ACK*, developing from scratch a commercial web site, involving database access and dynamic contents, making use of *LAMP* technologies.
+    content: >-
+      Working as internship Programmer for *ACK*, developing from scratch a
+      commercial web site, involving database access and dynamic contents,
+      making use of *LAMP* technologies.
     duration_from: Mar 2004
     duration_to: Jul 2004
     link: 'http://www.ack.es/'
@@ -235,7 +302,9 @@ relevant:
       - PHP
 other:
   - company: Computer Zaragoza
-    content: Working as internship Hardware Technician for *Computer Zaragoza* at the post-sales technical support.
+    content: >-
+      Working as internship Hardware Technician for *Computer Zaragoza* at the
+      post-sales technical support.
     duration_from: Mar 2002
     duration_to: Jul 2002
     link: 'http://www.ecomputer.es/'

@@ -32,7 +32,10 @@ favicons:
     sizes: 180x180
     type: image/png
 open_graph:
-  description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
+  description: >-
+    Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a
+    Senior Programmer in several platforms: desktop applications, middleware,
+    web apps, e-commerce, smart phones, video games…
   first_name: Guillermo
   gender: male
   image: /assets/images/thumb.png
@@ -44,7 +47,10 @@ open_graph:
 twitter_cards:
   card: summary_large_image
   creator: gcalvo
-  description: "Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games…"
+  description: >-
+    Hello! I’m Guillermo Calvo, a Software Developer with wide experience as a
+    Senior Programmer in several platforms: desktop applications, middleware,
+    web apps, e-commerce, smart phones, video games…
   image: /assets/images/thumb.png
   title: Guillermo Calvo - Curriculum Vitae
 ---

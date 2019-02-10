@@ -1,8 +1,10 @@
 title: Skills
-intro: |
+intro: >
   These are some of my skills.
 
-  I try to learn as many technologies as I can, so I can use **the best tool for the job**.
+
+  I try to learn as many technologies as I can, so I can use **the best tool for
+  the job**.
 featured:
   - level: Expert
     title: J2EE App. Development

@@ -8,7 +8,9 @@ featured:
     subtitle: Japanese-Language Proficiency Test
     title: JLPT Level N5
     when: '2014'
-  - issuer: AIDIT, Spanish Accreditation Agency in Research, Development and Technological Innovation
+  - issuer: >-
+      AIDIT, Spanish Accreditation Agency in Research, Development and
+      Technological Innovation
     subtitle: On R+D+i projects
     title: Research Personnel
     when: '2010'
