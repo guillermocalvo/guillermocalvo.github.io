@@ -1,12 +1,12 @@
 title: Languages
 featured:
   - level: Native Speaker
-    stars: 5
+    stars: '5'
     title: Spanish
   - level: Professional proficiency
-    stars: 4
+    stars: '4'
     title: English
   - level: Elementary proficiency
-    stars: 1
+    stars: '1'
     title: Japanese
     tooltip: Japanese-Language Proficiency Test Level N5

@@ -1,11 +1,11 @@
 featured:
   - icon: twitter
-    link: https://twitter.com/gcalvo
+    link: 'https://twitter.com/gcalvo'
   - icon: google-plus
-    link: https://plus.google.com/+GuillermoCalvo
+    link: 'https://plus.google.com/+GuillermoCalvo'
   - icon: linkedin
-    link: https://linkedin.com/in/guillermocalvo
+    link: 'https://linkedin.com/in/guillermocalvo'
   - icon: github-alt
-    link: https://github.com/guillermocalvo
+    link: 'https://github.com/guillermocalvo'
   - icon: paper-plane
-    link: https://telegram.me/guillermocalvo
+    link: 'https://telegram.me/guillermocalvo'

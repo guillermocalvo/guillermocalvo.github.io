@@ -8,21 +8,21 @@ featured:
     title: J2EE App. Development
     value: 96%
   - level: Expert
-    title: Struts, Spring, Hibernate, SOAP
+    title: 'Struts, Spring, Hibernate, SOAP'
     value: 92%
   - level: Pro
-    title: HTML5, CSS3, JavaScript, REST
+    title: 'HTML5, CSS3, JavaScript, REST'
     value: 82%
   - level: Pro
     title: Oracle PL/SQL
     value: 78%
   - level: Skilled
-    title: C#, PHP, Python, Ruby, Go
+    title: 'C#, PHP, Python, Ruby, Go'
     value: 65%
 other:
   - level: Expert
     title: C
     value: 96%
 more:
-  link: https://www.linkedin.com/in/guillermocalvo#background-skills-container
+  link: 'https://www.linkedin.com/in/guillermocalvo#background-skills-container'
   title: More skills

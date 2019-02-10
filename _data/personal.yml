@@ -2,31 +2,45 @@ title: About Me
 name: Guillermo Calvo
 description: Software Developer
 location:
-  link: https://www.google.com/maps/search/Tokyo
-  title: Within 23 wards, Tokyo, Japan
+  link: 'https://www.google.com/maps/search/Tokyo'
+  title: 'Within 23 wards, Tokyo, Japan'
 email: cv@guillermo.in
 website:
-  link: https://leakyabstractions.com/
+  link: 'https://leakyabstractions.com/'
   title: Leaky Abstractions
 image: /assets/images/guillermo.png
 contact:
-  link: mailto:contact@guillermo.in
+  link: 'mailto:contact@guillermo.in'
   title: Contact Me
 feed:
   description: These are some of the latest posts from my blog [Leaky Abstractions](http://leakyabstractions.com/).
   effect: slideFastSynced
-  limit: 2
-  link: https://leakyabstractions.com/feed.xml
+  limit: '2'
+  link: 'https://leakyabstractions.com/feed.xml'
   more: Read more
   title: Recent Posts
 interests:
   featured:
-    - tags: [Programming, Software, Internet]
+    - tags:
+        - Programming
+        - Software
+        - Internet
       title: Technology
-    - tags: [IndieDev, Arcade, 8bits]
+    - tags:
+        - IndieDev
+        - Arcade
+        - 8bits
       title: Video Games
-    - tags: [Music, Books, Movies, Comics]
+    - tags:
+        - Music
+        - Books
+        - Movies
+        - Comics
       title: Art
-    - tags: [Anime, Manga, Sushi, Origami]
+    - tags:
+        - Anime
+        - Manga
+        - Sushi
+        - Origami
       title: Japan
   title: Main interests
