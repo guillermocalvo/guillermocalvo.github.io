@@ -1,0 +1,245 @@
+backend:
+  name: github
+  repo: guillermocalvo/resume
+  branch: gh-pages
+
+media_folder: "assets/images" # Folder where user uploaded files should go
+
+logo_url: /assets/images/thumb.png
+
+common_fields:
+  - &body           {label: "Body", name: "body", widget: "markdown"}
+  - &content        {label: "Content", name: "content", widget: "markdown"}
+  - &description    {label: "Description", name: "description", widget: "string"}
+  - &description_md {label: "Description", name: "description", widget: "markdown"}
+  - &image          {label: "Image", name: "image", widget: "image"}
+  - &image_opt      {label: "Image", name: "image", widget: "image", required: false}
+  - &issuer         {label: "Issuer", name: "issuer", widget: "string"}
+  - &label          {label: "Label", name: "label", widget: "string"}
+  - &level          {label: "Level", name: "level", widget: "string"}
+  - &link           {label: "Link", name: "link", widget: "string"}
+  - &subtitle       {label: "Subtitle", name: "subtitle", widget: "string"}
+  - &subtitle_opt   {label: "Subtitle", name: "subtitle", widget: "string", required: false}
+  - &title          {label: "Title", name: "title", widget: "string"}
+  - &when_year      {label: "Date", name: "when", widget: "date", format: "YYYY"}
+  - &where          {label: "Where", name: "where", widget: "string"}
+  - &more           {label: "More", name: "more", widget: "object", fields: [*title, *link]}
+  - &certification_fields
+    - *title
+    - *subtitle
+    - *issuer
+    - *when_year
+  - &education_fields
+    - *title
+    - *where
+    - {label: "From/To", name: "when", widget: "string"}
+  - &endorser_fields
+    - {label: "Endorser", name: "endorser", widget: "string"}
+    - {label: "Position", name: "position", widget: "string"}
+    - *link
+    - *content
+  - &experience_fields
+    - {label: "Position", name: "position", widget: "string"}
+    - {label: "Company", name: "company", widget: "string"}
+    - *link
+    - {label: "From", name: "duration_from", widget: "string"}
+    - {label: "To", name: "duration_to", widget: "string"}
+    - {label: "Technologies", name: "technologies", widget: "list", required: false}
+    - *content
+  - &favicon_fields
+    - {label: "Relationship", name: "rel", widget: "string", default: "icon"}
+    - {label: "Dimensions", name: "sizes", widget: "string", required: false}
+    - {label: "Link", name: "href", widget: "image", default: "/favicon.ico"}
+    - {label: "Media-Type", name: "type", widget: "select", default: "image/png", options: ["image/x-icon", "image/png", "image/gif", "image/jpg"]}
+  - &language_fields
+    - *title
+    - {label: "Tooltip", name: "tooltip", widget: "string", required: false}
+    - *level
+    - {label: "Stars", name: "stars", widget: "number", min: 1, max: 5}
+  - &open_graph_fields
+    - *title
+    - {label: "User Name", name: "username", widget: "string"}
+    - {label: "First Name", name: "first_name", widget: "string"}
+    - {label: "Last Name", name: "last_name", widget: "string"}
+    - {label: "Gender", name: "gender", widget: "string"}
+    - {label: "Site Name", name: "site_name", widget: "string"}
+    - *description
+    - {label: "Locale", name: "locale", widget: "string"}
+    - *image
+  - &project_fields
+    - *title
+    - *subtitle_opt
+    - *more
+    - *label
+    - *image_opt
+    - *content
+  - &skill_fields
+    - *title
+    - *level
+    - {label: "Value", name: "value", widget: "string"}
+  - &twitter_cards_fields
+    - *title
+    - *description
+    - {label: "Creator", name: "creator", widget: "string"}
+    - {label: "Card", name: "card", widget: "select", default: "summary_large_image", options: ["summary", "summary_large_image"]}
+    - *image
+
+collections: # A list of collections the CMS should be able to edit
+# ================================================================
+# PAGES
+# ================================================================
+  - name: "pages"
+    label: "Pages"
+    create: false
+    files:
+#
+# HOME PAGE
+#
+      - file: "index.md"
+        label: "Home Page"
+        name: "home"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "curriculum"}
+          - *title
+          - *description
+          - {label: "Author", name: "author", widget: "string"}
+          - {label: "Favicons", name: "favicons", widget: "list", fields: *favicon_fields}
+          - {label: "Open Graph", name: "open_graph", widget: "object", fields: *open_graph_fields}
+          - {label: "Twitter Cards", name: "twitter_cards", widget: "object", fields: *twitter_cards_fields}
+          - *body
+#
+# HOME PAGE
+#
+
+# ================================================================
+# DATA
+# ================================================================
+  - name: "data"
+    label: "Data"
+    create: false
+    files:
+#
+# PERSONAL
+#
+      - file: "_data/personal.yml"
+        label: "Personal Info"
+        name: "personal"
+        fields:
+          - *title
+          - {label: "Name", name: "name", widget: "string"}
+          - *description
+          - {label: "Location", name: "location", widget: "object", fields: [*title, *link]}
+          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Website", name: "website", widget: "object", fields: [*title, *link]}
+          - *image
+          - {label: "Contact", name: "contact", widget: "object", fields: [*title, *link]}
+          - label: "Feed"
+            name: "feed"
+            widget: "object"
+            fields:
+              - *title
+              - *description_md
+              - *link
+              - {label: "Limit", name: "limit", widget: "number", min: 1, max: 8}
+              - {label: "Effect", name: "effect", widget: "select", options: ["show", "slide", "slideFast", "slideSynced", "slideFastSynced"]}
+              - {label: "More", name: "more", widget: "text"}
+          - label: "Main Interests"
+            name: "interests"
+            widget: "object"
+            fields:
+              - *title
+              - label: "Featured Interests"
+                name: "featured"
+                widget: "list"
+                fields:
+                  - *title
+                  - {label: "Tags", name: "tags", widget: "list"}
+#
+# PROJECTS
+#
+      - file: "_data/projects.yml"
+        label: "Projects"
+        name: "projects"
+        fields:
+          - *title
+          - {label: "Other Title", name: "otherTitle", widget: "string"}
+          - {label: "Featured Projects", name: "featured", widget: "list", fields: *project_fields}
+          - {label: "Relevant Projects", name: "relevant", widget: "list", fields: *project_fields}
+          - {label: "Other Projects", name: "other", widget: "list", fields: *project_fields}
+          - *more
+#
+# EXPERIENCE
+#
+      - file: "_data/experiences.yml"
+        label: "Work Experience"
+        name: "experiences"
+        fields:
+          - *title
+          - {label: "Featured Experience", name: "featured", widget: "list", fields: *experience_fields}
+          - {label: "Relevant Experience", name: "relevant", widget: "list", fields: *experience_fields}
+          - {label: "Other Experience", name: "other", widget: "list", fields: *experience_fields}
+          - *more
+#
+# SOCIAL
+#
+      - file: "_data/social.yml"
+        label: "Social Networks"
+        name: "social"
+        fields:
+          - label: "Featured Social Networks"
+            name: "featured"
+            widget: "list"
+            fields:
+              - {label: "Icon", name: "icon", widget: "string"}
+              - *link
+#
+# SKILLS
+#
+      - file: "_data/skills.yml"
+        label: "Technical Skills"
+        name: "skills"
+        fields:
+          - *title
+          - {label: "Introduction", name: "intro", widget: "markdown"}
+          - {label: "Featured Skills", name: "featured", widget: "list", fields: *skill_fields}
+          - {label: "Other Skills", name: "other", widget: "list", fields: *skill_fields}
+          - *more
+#
+# LANGUAGES
+#
+      - file: "_data/languages.yml"
+        label: "Languages"
+        name: "languages"
+        fields:
+          - *title
+          - { label: "Featured Languages", name: "featured", widget: "list", fields: *language_fields }
+#
+# CERTIFICATIONS
+#
+      - file: "_data/certifications.yml"
+        label: "Certifications"
+        name: "certifications"
+        fields:
+          - *title
+          - {label: "Featured Certifications", name: "featured", widget: "list", fields: *certification_fields}
+          - {label: "Other Certifications", name: "other", widget: "list", fields: *certification_fields }
+          - *more
+#
+# EDUCATION
+#
+      - file: "_data/education.yml"
+        label: "Education"
+        name: "education"
+        fields:
+          - *title
+          - {label: "Featured Education Entries", name: "featured", widget: "list", fields: *education_fields}
+#
+# ENDORSEMENTS
+#
+      - file: "_data/endorsements.yml"
+        label: "Endorsements"
+        name: "endorsements"
+        fields:
+          - *title
+          - {label: "Featured Endorsements", name: "featured", widget: "list", fields: *endorser_fields}
+          - *more
