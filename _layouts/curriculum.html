@@ -222,7 +222,7 @@ ga('send', 'pageview');
                                 <h3 class="title">
                                     {{ experience.position }} -
                                     <span class="place">
-                                        {% if experience.link %}<a href="{{ experience.link }}">{% endif %}{{ experience.company }}{% if experience.link %}</a>{% endif %}</span> <span class="year">({{ experience.from }} &ndash; {{ experience.to }})
+                                        {% if experience.link %}<a href="{{ experience.link }}">{% endif %}{{ experience.company }}{% if experience.link %}</a>{% endif %}</span> <span class="year">({{ experience.duration_from }} &ndash; {{ experience.duration_to }})
                                     </span>
                                 </h3>
                                 <div class="technologies">
@@ -245,7 +245,7 @@ ga('send', 'pageview');
                                         <span class="place">
                                             {% if experience.link %}<a href="{{ experience.link }}">{% endif %}{{ experience.company }}{% if experience.link %}</a>{% endif %}
                                         </span>
-                                        <span class="year">({{ experience.from }} &ndash; {{ experience.to }})</span>
+                                        <span class="year">({{ experience.duration_from }} &ndash; {{ experience.duration_to }})</span>
                                     </span>
                                 </h3>
                                 <div class="technologies">

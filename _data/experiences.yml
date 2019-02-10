@@ -3,8 +3,8 @@ featured:
   - position: Software Engineer
     company: Rakuten
     link: https://corp.rakuten.co.jp/
-    from: Oct 2016
-    to: Present
+    duration_from: Oct 2016
+    duration_to: Present
     technologies: [J2EE, Javascript, HTML5, CSS3, Glassfish, Weblogic, Exalogic, Shell scripting, Maven, Jenkins, SonarQube, TestRail, JIRA, Bitbucket]
     content: |
 
@@ -21,8 +21,8 @@ featured:
   - position: Analyst Programmer
     company: GFT
     link: http://www.gft.com/
-    from: Jan 2015
-    to: Sep 2016
+    duration_from: Jan 2015
+    duration_to: Sep 2016
     technologies: [J2EE, Spring, MVC, JPA, RESTful Web Services, Apache Tomcat, Oracle PL/SQL, TeamCity, Nexus, Maven, Angular.js, HTML5, CSS3, SASS, WebSockets, Node.js, NPM, Bower, Grunt]
     content: |
 
@@ -38,8 +38,8 @@ featured:
   - position: Senior Programmer
     company: Hewlett-Packard
     link: http://www.hp.com/
-    from: Jan 2014
-    to: Jan 2015
+    duration_from: Jan 2014
+    duration_to: Jan 2015
     technologies: [J2EE, Apache Tomcat, Oracle WebLogic, Web Services, SOAP, Oracle Database, Siebel CRM]
     content: |
 
@@ -50,8 +50,8 @@ featured:
   - position: Independent game developer
     company: Origame Studio
     link: http://origamestudio.tumblr.com/
-    from: Jan 2013
-    to: Jan 2014
+    duration_from: Jan 2013
+    duration_to: Jan 2014
     technologies: [Unity3D, Game Development, C#, JavaScript, 3D Modeling, Android, Google Play, AdMob]
     content: |
 
@@ -63,8 +63,8 @@ relevant:
   - position: Senior Programmer
     company: JFactory
     link: http://www.jfactory.es/
-    from: Mar 2012
-    to: Aug 2012
+    duration_from: Mar 2012
+    duration_to: Aug 2012
     technologies: [ J2EE, Tomcat, Apache, SSL, Web Services, REST, JSON, PostgreSQL, Dreamweaver, HTML5, CSS3]
     content: |
 
@@ -75,8 +75,8 @@ relevant:
   - position: Senior Programmer
     company: IRITEC
     link: http://www.hiberus.com/
-    from: Feb 2011
-    to: Feb 2012
+    duration_from: Feb 2011
+    duration_to: Feb 2012
     technologies: [J2EE, MySQL, SQL Server, PHP 5, Zend, Nutch, Solr, Lucene, Tomcat, Struts, Hibernate, Spring, Web Services, SOAP, HTML5, CSS3, JavaScript]
     content: |
 
@@ -87,8 +87,8 @@ relevant:
   - position: Senior Programmer
     company: CITIC
     link: http://www.citic.es/
-    from: Jul 2007
-    to: Sep 2010
+    duration_from: Jul 2007
+    duration_to: Sep 2010
     technologies: [Ambient intelligence, RFID, Semantic web, Ontologies, RDF, TDT, MHP, SmartCard, J2ME, C, C++, Qt, Python, Struts, Hibernate, JSP, J2EE, PostgreSQL, Web services, RPC/JSON, SOAP]
     content: |
 
@@ -101,8 +101,8 @@ relevant:
   - position: Freelance Programmer
     company: Neodoo Microsystems
     link: http://www.neodoo.es/
-    from: Dec 2006
-    to: Jun 2007
+    duration_from: Dec 2006
+    duration_to: Jun 2007
     technologies: [JBoss Application Server, Java Server Faces, EJB3, Hibernate, JBoss Seam, Web Services, SOAP]
     content: |
 
@@ -113,8 +113,8 @@ relevant:
   - position: Senior Programmer
     company: Electronic Data Systems
     link: http://wikipedia.org/wiki/Electronic_Data_Systems
-    from: Dec 2005
-    to: Dec 2006
+    duration_from: Dec 2005
+    duration_to: Dec 2006
     technologies: [C, C++, J2SE, PL/SQL, Shell scripting]
     content: |
 
@@ -125,16 +125,16 @@ relevant:
   - position: Programmer
     company: ACK
     link: http://www.ack.es/
-    from: Mar 2004
-    to: Jul 2004
+    duration_from: Mar 2004
+    duration_to: Jul 2004
     technologies: [Linux, Apache, MySQL, PHP]
     content: Working as internship Programmer for *ACK*, developing from scratch a commercial web site, involving database access and dynamic contents, making use of *LAMP* technologies.
 other:
   - position: Hardware Technician
     company: Computer Zaragoza
     link: http://www.ecomputer.es/
-    from: Mar 2002
-    to: Jul 2002
+    duration_from: Mar 2002
+    duration_to: Jul 2002
     content: Working as internship Hardware Technician for *Computer Zaragoza* at the post-sales technical support.
 more:
   title: More details
