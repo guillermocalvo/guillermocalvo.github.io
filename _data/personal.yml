@@ -4,13 +4,13 @@ description: Software Developer
 location:
   link: 'https://www.google.com/maps/search/Tokyo'
   title: 'Within 23 wards, Tokyo, Japan'
-email: cv@guillermo.in
+email: cv@guillermo.dev
 website:
   link: 'https://leakyabstractions.com/'
   title: Leaky Abstractions
 image: /assets/images/guillermo.png
 contact:
-  link: 'mailto:contact@guillermo.in'
+  link: 'mailto:contact@guillermo.dev'
   title: Contact Me
 feed:
   title: Recent Posts

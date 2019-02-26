@@ -1,9 +1,9 @@
 title: Guillermo Calvo
-email: cv@guillermo.in
+email: cv@guillermo.dev
 description: Guillermo Calvo - Curriculum Vitae.
 baseurl:
-url: https://resume.guillermo.in
-repository: guillermocalvo/resume
+url: https://guillermo.dev
+repository: guillermocalvo/guillermocalvo.github.io
 markdown: kramdown
 include:
   - _redirects
