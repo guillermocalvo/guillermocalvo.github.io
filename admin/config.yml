@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: guillermocalvo/resume
-  branch: gh-pages
+  repo: guillermocalvo/guillermocalvo.github.io
+  branch: master
 
 media_folder: "assets/images" # Folder where user uploaded files should go
 
