@@ -3,16 +3,70 @@ featured:
   - company: Rakuten
     content: >
 
-      Currently working at *Rakuten*, in **Checkout Team** of [Rakuten
-      Ichiba](https://www.rakuten.co.jp), Japan's biggest shopping mall.
+      Currently working at *Rakuten*, in **RAPID Team**, *EC Platfor
+      Department*. I am one of the main developers of an internal, open-source
+      project which provides a set of Java libraries and other tools to other
+      teams, empowering them to focus on the business logic.
 
 
-      Our team is in charge of one of the most critical parts of the e-commerce.
-      Checkout is the process a customer must go through when checking out the
-      items in the cart.
+      Our team leads a company-wide initiative, whose mission is to accelerate
+      micro-services development through standardization and factorization. We
+      are in charge of building the next generation platform of the company,
+      using state-of-the-art technologies and adopting new concepts and
+      paradigms.
 
 
-      My responsibilities include:
+      My team is responsible for:
+
+
+      * Introducing new technologies and frameworks to the company.
+
+      * Providing trainings and best practices to other teams.
+
+      * Designing and providing architectural and technical support on the next
+      generation e-commerce platform system.
+
+      * Implementing distributed backend API systems that support high traffic
+      demand and provide a 24x7 reliable service.
+
+      * Developing the continuous refactors and re-architecture of the system,
+      to comply with the increasing scalability demand and requirements.
+
+    duration_from: Nov 2017
+    duration_to: Present
+    link: 'https://corp.rakuten.co.jp/'
+    position: Software Engineer
+    technologies:
+      - Java 8
+      - Java 11
+      - Spring Framework
+      - Play Framework
+      - Netty
+      - REST APIs
+      - Web services
+      - Microservices
+      - Distributed Architectures
+      - Etcd
+      - Consul
+      - Reactive designs
+      - Concurrent Programming
+      - Prometheus
+      - Grafana
+      - Python
+
+  - company: Rakuten
+    content: >
+
+      Working at *Rakuten*, in **Checkout Team** of
+      [Rakuten Ichiba](https://www.rakuten.co.jp), Japan's biggest shopping
+      mall.
+
+      Our team was in charge of one of the most critical parts of the
+      e-commerce. Checkout is the process a customer must go through when
+      checking out the items in the cart.
+
+
+      My responsibilities included:
 
 
       * Development, system design and implementation of web applications
@@ -21,7 +75,7 @@ featured:
 
       * Investigation of any issues in production servers
     duration_from: Oct 2016
-    duration_to: Present
+    duration_to: Oct 2017
     link: 'https://corp.rakuten.co.jp/'
     position: Software Engineer
     technologies:
