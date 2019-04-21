@@ -21,7 +21,7 @@ favicons:
     type: image/png
   - href: /assets/images/favicon-128x128.png
     rel: icon
-    sizes: 64x64
+    sizes: 128x128
     type: image/png
   - href: /assets/images/guillermo.png
     rel: icon
