@@ -45,6 +45,17 @@ relevant:
       link: 'https://guillermo.dev/exceptions4c/'
       title: Find out more
   - content: >-
+      A **specification** describing a set of rules and requirements
+      that dictate how *version identifiers* must be bumped and and
+      assigned to *releases*.
+    image: /assets/images/projects/pragmatic-versioning.png
+    label: Open Source
+    title: Pragmatic Versioning
+    more:
+      link: 'https://pragver.github.io/'
+      title: View project website
+other:
+  - content: >-
       An **extension for Unity3d** which allows you to place *Google AdMob*
       banners in your *Android* games.
     image: /assets/images/projects/admob-unity-plugin.png
@@ -53,7 +64,6 @@ relevant:
     more:
       link: 'https://github.com/guillermocalvo/admob-unity-plugin'
       title: View on GitHub
-other:
   - content: >-
       A **Java 2 Enterprise Edition** library to invoke remote procedures over
       the **JSON-RPC** protocol from Java applications. It lets the developer to
