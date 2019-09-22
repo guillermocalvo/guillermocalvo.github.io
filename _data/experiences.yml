@@ -3,7 +3,7 @@ featured:
   - company: Rakuten
     content: >
 
-      Currently working at *Rakuten*, in **RAPID Team**, *EC Platfor
+      Currently working at *Rakuten*, in **RAPID Team**, *EC Platform
       Department*. I am one of the main developers of an internal, open-source
       project which provides a set of Java libraries and other tools to other
       teams, empowering them to focus on the business logic.
@@ -53,6 +53,9 @@ featured:
       - Prometheus
       - Grafana
       - Python
+      - Docker
+      - Marathon
+      - Kubernetes
 
   - company: Rakuten
     content: >
