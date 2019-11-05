@@ -42,13 +42,13 @@ featured:
       - Spring Framework
       - Play Framework
       - Netty
-      - REST APIs
-      - Web services
+      - RESTful APIs
+      - Web Services
       - Microservices
       - Distributed Architectures
       - Etcd
       - Consul
-      - Reactive designs
+      - Reactive Streams
       - Concurrent Programming
       - Prometheus
       - Grafana
@@ -56,6 +56,7 @@ featured:
       - Docker
       - Marathon
       - Kubernetes
+      - Kafka Streams
 
   - company: Rakuten
     content: >
@@ -89,7 +90,7 @@ featured:
       - Glassfish
       - Weblogic
       - Exalogic
-      - Shell scripting
+      - Shell Scripting
       - Maven
       - Jenkins
       - SonarQube
