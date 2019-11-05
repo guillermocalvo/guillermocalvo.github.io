@@ -7,19 +7,19 @@ intro: >
   the job**.
 featured:
   - level: Expert
-    title: J2EE App. Development
+    title: 'Java, Spring, Web Services, Docker'
     value: 96%
   - level: Expert
-    title: 'Struts, Spring, Hibernate, SOAP'
+    title: 'Play, Reactive Streams, Microservices'
     value: 92%
   - level: Pro
-    title: 'HTML5, CSS3, JavaScript, REST'
+    title: 'K8s, Jenkins, Prometheus, Kafka'
     value: 82%
   - level: Pro
-    title: Oracle PL/SQL
+    title: 'HTML5, CSS3, JavaScript, REST'
     value: 78%
   - level: Skilled
-    title: 'C#, PHP, Python, Ruby, Go'
+    title: 'C#, PHP, Python, Ruby, Go, PL/SQL'
     value: 65%
 other:
   - level: Expert
