@@ -99,7 +99,7 @@ layout: compress
             <div class="primary col-md-8 col-sm-12 col-xs-12">
 
                 <!-- ABOUT ME -->
-                <section class="about section">
+                <section id="about-me" class="about section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.personal.title }}</h2>
                         <div class="content">{{ content }}</div>
@@ -108,7 +108,7 @@ layout: compress
 
               {% if site.data.projects.featured or site.data.projects.relevant %}
                 <!-- LATEST PROJECTS -->
-                <section class="latest section">
+                <section id="projects" class="latest section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.projects.title }}</h2>
                         <div class="content">
@@ -116,7 +116,7 @@ layout: compress
                         {% if site.data.projects.featured %}
                             <!-- FEATURED -->
                           {% for project in site.data.projects.featured %}
-                            <div class="item featured text-center">
+                            <div id="featured-project-{{ forloop.index }}" class="item featured text-center">
                                 <h3 class="title"><a href="{{ project.more.link }}" target="_blank">{{ project.title }}</a></h3>
                                {% if project.subtitle %}
                                 <p class="summary">{{ project.subtitle | markdownify | remove: '<p>' | remove: '</p>' }}</p>
@@ -143,7 +143,7 @@ layout: compress
                         {% if site.data.projects.relevant %}
                             <!-- RELEVANT -->
                           {% for project in site.data.projects.relevant %}
-                            <div class="item row">
+                            <div id="project-{{ forloop.index }}" class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="{{ project.more.link }}" target="_blank">
                                   <img class="img-responsive project-image" src="{{ project.image | prepend: site.baseurl }}" alt="" />
                                 </a>
@@ -175,7 +175,7 @@ layout: compress
                         <h2 class="heading">{{ site.data.projects.otherTitle }}</h2>
                         <div class="content">
                           {% for project in site.data.projects.other %}
-                            <div class="item">
+                            <div id="other-project-{{ forloop.index }}" class="item">
                                 <h3 class="title">
                                   <a href="{{ project.more.link }}">{{ project.title }}</a>
                               {% if project.label %}
@@ -202,13 +202,13 @@ layout: compress
 
               {% if site.data.experiences %}
                 <!-- EXPERIENCE -->
-                <section class="experience section">
+                <section id="work-experience" class="experience section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.experiences.title }}</h2>
                         <div class="content">
 
                           {% for experience in site.data.experiences.featured %}
-                            <div class="item">
+                            <div id="featured-work-experience-{{ forloop.index }}" class="item">
                                 <h3 class="title">
                                     {{ experience.position }} -
                                     <span class="place">
@@ -228,7 +228,7 @@ layout: compress
                           {% endfor %}
 
                           {% for experience in site.data.experiences.relevant %}
-                            <div class="relevant item">
+                            <div id="work-experience-{{ forloop.index }}" class="relevant item">
                                 <h3 class="title">
                                     <span class="level-label" data-toggle="tooltip" data-placement="bottom" data-animation="true" title="{{ experience.content | markdownify | strip_html }}">
                                         {{ experience.position }} -
@@ -268,7 +268,7 @@ layout: compress
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
 
                 <!-- BASIC INFO -->
-                <aside class="info aside section">
+                <aside id="basic-info" class="info aside section">
                     <div class="section-inner">
                         <h2 class="heading sr-only">Basic Information</h2>
                         <div class="content">
@@ -283,14 +283,14 @@ layout: compress
 
               {% if site.data.skills %}
                 <!-- SKILLS -->
-                <aside class="skills aside section">
+                <aside id="skills" class="skills aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.skills.title }}</h2>
                         <div class="content">
                             <div class="intro">{{ site.data.skills.intro | markdownify }}</div>
                             <div class="skillset">
                               {% for skill in site.data.skills.featured %}
-                                <div class="item">
+                                <div id="skill-{{ forloop.index }}" class="item">
                                     <h3 class="level-title">{{ skill.title }}<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="{{ skill.tooltip }}">{{ skill.level }}</span></h3>
                                     <div class="level-bar">
                                         <div class="level-bar-inner" data-level="{{ skill.value }}">
@@ -309,13 +309,13 @@ layout: compress
 
               {% if site.data.languages %}
                 <!-- LANGUAGES -->
-                <aside class="languages aside section">
+                <aside id="languages" class="languages aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.languages.title }}</h2>
                         <div class="content">
                             <ul class="list-unstyled">
                               {% for language in site.data.languages.featured %}
-                                <li class="item">
+                                <li id="language-{{ forloop.index }}" class="item">
                                     <span class="title"><strong>{{ language.title }}:</strong></span>
                                     <span class="level" title="{{ language.tooltip }}">{{ language.level }} <br class="visible-xs"/>{% for i in (1..10) limit: language.stars %}<i class="fa fa-star"></i> {% endfor %}</span>
                                 </li>
@@ -328,12 +328,12 @@ layout: compress
 
               {% if site.data.certifications %}
                 <!-- CERTIFICATIONS -->
-                <aside class="certifications aside section">
+                <aside id="certifications" class="certifications aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.certifications.title }}</h2>
                         <div class="content">
                           {% for certification in site.data.certifications.featured %}
-                            <div class="item">
+                            <div id="certification-{{ forloop.index }}" class="item">
                                 <h3 class="title"><i class="fa fa-certificate"></i> {{ certification.title }}<br>{{ certification.subtitle }}</h3>
                                 <h4 class="issuer">{{ certification.issuer }} <span class="year">({{ certification.when }})</span></h4>
                             </div>
@@ -345,12 +345,12 @@ layout: compress
 
               {% if site.data.education %}
                 <!-- EDUCATION -->
-                <aside class="education aside section">
+                <aside id="education" class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.education.title }}</h2>
                         <div class="content">
                           {% for education in site.data.education.featured %}
-                            <div class="item">
+                            <div id="education-{{ forloop.index }}" class="item">
                                 <h3 class="title"><i class="fa fa-graduation-cap"></i> {{ education.title }}</h3>
                                 <h4 class="university">{{ education.where }} <span class="year">({{ education.when }})</span></h4>
                             </div>
@@ -362,12 +362,12 @@ layout: compress
 
               {% if site.data.endorsements %}
                 <!-- ENDORSEMENTS -->
-                <aside class="testimonials aside section">
+                <aside id="endorsements" class="testimonials aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.endorsements.title }}</h2>
                         <div class="content">
                           {% for endorsement in site.data.endorsements.featured %}
-                            <div class="item">
+                            <div id="endorsement-{{ forloop.index }}" class="item">
                                 <blockquote class="quote">
                                     <div><i class="fa fa-quote-left" style="float: left;"></i>{{ endorsement.content | markdownify }}</div>
                                 </blockquote>
@@ -388,12 +388,12 @@ layout: compress
 
               {% if site.data.personal.interests %}
                 <!-- INTERESTS -->
-                <aside class="interests aside section">
+                <aside id="interests" class="interests aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.personal.interests.title }}</h2>
                         <div class="content">
                           {% for interest in site.data.personal.interests.featured %}
-                            <div class="item">
+                            <div id="interest-{{ forloop.index }}" class="item">
                                 <h3 class="title"><i class="fa fa-tags"></i> {{ interest.title }}</h3>
                                 <h4 class="tags">
                                   {% for tag in interest.tags %}
@@ -409,7 +409,7 @@ layout: compress
 
               {% if site.data.personal.feed %}
                 <!-- RECENT POSTS -->
-                <aside class="blog aside section">
+                <aside id="posts" class="blog aside section">
                     <div class="section-inner">
                         <h2 class="heading">{{ site.data.personal.feed.title }}</h2>
 						{% if site.data.personal.feed.description %}{{ site.data.personal.feed.description | markdownify }}{% endif %}
