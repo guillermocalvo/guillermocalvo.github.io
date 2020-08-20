@@ -1,22 +1,67 @@
 title: Work Experience
 featured:
+  - company: YouCanBook.me
+    content: >
+
+      Currently working at *YouCanBook.me*, in **Engineering Team**. I focus on
+      the development and maintenance of the backend systems that power the
+      scheduling app.
+
+
+      My team is responsible for:
+
+
+      * Monitoring and maintenance of YouCanBook.me APIs, services and
+      processes.
+
+      * Creating scalable, robust web services and new features that are
+      deployed on a daily basis.
+
+      * Refactoring existing legacy systems, generating a clean, maintainable
+      and testable code.
+
+      * Improving the in-house billing and subscriptions component.
+
+    duration_from: Mar 2020
+    duration_to: Present
+    link: 'https://youcanbook.me/'
+    position: Software Engineer
+    technologies:
+      - Java 8
+      - Maven
+      - Spring Framework
+      - Reactive Streams
+      - Apache HTTP Client
+      - Hibernate
+      - RESTful APIs
+      - Web Services
+      - Calendaring
+      - CalDAV
+      - Twilio
+      - Stripe
+      - Zoom
+      - MySQL
+      - DynamoDB
+      - Redis
+      - Terraform
+
   - company: Rakuten
     content: >
 
-      Currently working at *Rakuten*, in **RAPID Team**, *EC Platform
-      Department*. I am one of the main developers of an internal, open-source
-      project which provides a set of Java libraries and other tools to other
-      teams, empowering them to focus on the business logic.
+      Working at *Rakuten*, in **RAPID Team**, *EC Platform Department*. I was
+      one of the main developers of an internal, open-source project which
+      provided a set of Java libraries and other tools to other teams,
+      empowering them to focus on the business logic.
 
 
-      Our team leads a company-wide initiative, whose mission is to accelerate
+      Our team leaded a company-wide initiative, whose mission was to accelerate
       micro-services development through standardization and factorization. We
-      are in charge of building the next generation platform of the company,
+      were in charge of building the next generation platform of the company,
       using state-of-the-art technologies and adopting new concepts and
       paradigms.
 
 
-      My team is responsible for:
+      My team was responsible for:
 
 
       * Introducing new technologies and frameworks to the company.
@@ -33,12 +78,13 @@ featured:
       to comply with the increasing scalability demand and requirements.
 
     duration_from: Nov 2017
-    duration_to: Present
+    duration_to: Feb 2020
     link: 'https://corp.rakuten.co.jp/'
     position: Software Engineer
     technologies:
       - Java 8
       - Java 11
+      - Gradle
       - Spring Framework
       - Play Framework
       - Netty
