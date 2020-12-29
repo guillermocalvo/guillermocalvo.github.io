@@ -34,6 +34,16 @@ featured:
     title: Memorize Kana
 relevant:
   - content: >-
+      A **specification** describing a set of rules and requirements
+      that dictate how *version identifiers* must be bumped and and
+      assigned to *releases*.
+    image: /assets/images/projects/pragmatic-versioning.png
+    label: Open Source
+    title: Pragmatic Versioning
+    more:
+      link: 'https://pragver.github.io/'
+      title: View project website
+  - content: >-
       A **C library for error handling** through exceptions. Among other
       functionalities, it lets the developer handle error signals sent by the
       operative system to the program (such as *division by zero*). It is
@@ -44,16 +54,6 @@ relevant:
     more:
       link: 'https://guillermo.dev/exceptions4c/'
       title: Find out more
-  - content: >-
-      A **specification** describing a set of rules and requirements
-      that dictate how *version identifiers* must be bumped and and
-      assigned to *releases*.
-    image: /assets/images/projects/pragmatic-versioning.png
-    label: Open Source
-    title: Pragmatic Versioning
-    more:
-      link: 'https://pragver.github.io/'
-      title: View project website
 other:
   - content: >-
       An **extension for Unity3d** which allows you to place *Google AdMob*
