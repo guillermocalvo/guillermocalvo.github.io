@@ -34,6 +34,16 @@ featured:
     title: Memorize Kana
 relevant:
   - content: >-
+      A **Java library to handle success and failure** that allows for a more
+      fluent coding style by avoiding use of exceptional logic for normal
+      program flow. It is similar to the `Optional` class in the JDK.
+    image: /assets/images/projects/result.png
+    label: Open Source
+    title: Result Library for Java
+    more:
+      link: 'https://github.com/LeakyAbstractions/result'
+      title: Check it out on GitHub
+  - content: >-
       A **specification** describing a set of rules and requirements
       that dictate how *version identifiers* must be bumped and and
       assigned to *releases*.
