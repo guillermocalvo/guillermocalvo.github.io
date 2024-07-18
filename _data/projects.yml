@@ -2,47 +2,41 @@ title: Latest Projects
 otherTitle: Other Projects
 featured:
   - content: >
-      **Memorize Kana**, formerly **Kana Memory**, is [**Origame
-      Studio**](http://origamestudio.tumblr.com/)'s first published game for
-      *Android*.
 
-      It is a memory game which helps you memorize Kana (syllabic Japanese
-      scripts) as you play.
+      This **Open Source** library can help boost performance of Java
+      applications by avoiding exception overhead.
 
 
-      ![](/assets/images/projects/kana-memory-2.png)
+      `Result` objects represent the outcome of an operation, removing the need
+      to both `catch` exceptions and check for `null`. Operations that
+      succeed produce results encapsulating a *success* value; operations that
+      fail produce results with a *failure* value.
 
 
-      This app is [available for free on **Google
-      Play**](https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana)
-      and translated to several languages.
+      Strong evidence suggests that results outperform exceptions. According to
+      the
+      [latest benchmarks](https://dev.leakyabstractions.com/result-benchmark/),
+      throwing an exception is several orders of magnitude slower than returning
+      a failed result.
 
 
-      **Memorize Kana** is *open source*; it was developed with
-      [**Unity**](https://unity3d.com/ "Unity game development platform") and
-      [the source code can be accessed at
-      **GitHub**](https://github.com/OrigameStudio/KanaMemory).
-    image: /assets/images/projects/kana-memory.png
-    label: 3D GAME
+      [![benchmarks](https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-benchmark/badge.json)](https://dev.leakyabstractions.com/result-benchmark/)
+
+
+      If you're ready to tap into the power of results, you can read the guide
+      and transform your error handling today.
+
+    image: /assets/images/projects/result.png
+    label: Java
     more:
       link: >-
-        https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana
-      title: <i class="fa fa-play-circle"></i> View on Google Play
+        https://result.leakyabstractions.com
+      title: <i class="fa fa-book"></i> Read the docs
     subtitle: >-
-      Have fun studying **Japanese**! Play this **memory game** to learn
-      Hiragana & Katakana.
-    title: Memorize Kana
+      Embrace clean error handling by encapsulating operations that may succeed
+      or fail
+    title: Result Library
 relevant:
-  - content: >-
-      A **Java library to handle success and failure** that allows for a more
-      fluent coding style by avoiding use of exceptional logic for normal
-      program flow. It is similar to the `Optional` class in the JDK.
-    image: /assets/images/projects/result.png
-    label: Open Source
-    title: Result Library for Java
-    more:
-      link: 'https://github.com/LeakyAbstractions/result'
-      title: Check it out on GitHub
   - content: >-
       A **specification** describing a set of rules and requirements
       that dictate how *version identifiers* must be bumped and and
@@ -53,6 +47,20 @@ relevant:
     more:
       link: 'https://pragver.github.io/'
       title: View project website
+  - content: >-
+      This was my first published game for *Android*. It's an educational memory
+      game to learn Hiragana and Katakana (syllabic Japanese scripts). It's
+      **open source** and made with with
+      [**Unity**](https://unity3d.com/ "Unity game development platform").
+      The app was
+      [available for free on **Google Play**](https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana)
+      and translated into several languages.
+    image: /assets/images/projects/kana-memory.png
+    label: 3D Game
+    title: Kana Memory
+    more:
+      link: 'https://github.com/OrigameStudio/KanaMemory'
+      title: Check it out on GitHub
   - content: >-
       A **C library for error handling** through exceptions. Among other
       functionalities, it lets the developer handle error signals sent by the
