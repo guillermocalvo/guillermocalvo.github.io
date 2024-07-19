@@ -1,14 +1,84 @@
 title: Work Experience
 featured:
+  - company: Object Computing, Inc.
+    content: >
+
+      Currently working with the
+      [Unity Foundation](https://unityfoundation.io/).
+
+
+      My team is responsible for the development of both Open Source frameworks,
+      [Micronaut](https://micronaut.io/) and [Grails](https://grails.org/). I
+      contributed with several bugfixes and new features.
+
+
+      Apart from these JVM-based frameworks, I'm also working on some other
+      internal projects that will be open sourced eventually.
+
+    duration_from: Jan 2023
+    duration_to: Present
+    link: 'https://objectcomputing.com/'
+    position: Senior Software Engineer
+    technologies:
+      - Micronaut Framework
+      - Grails
+      - Java 17
+      - Groovy
+      - Spring Boot
+      - Gradle
+      - GitHub Actions
+
+  - company: Object Computing, Inc.
+    content: >
+
+      As part of *OCI*'s
+      [**Groovy, Grails, and Micronaut Team**](https://objectcomputing.com/products/2gm-team),
+      I worked on several client projects. One of the most relevant ones was an
+      innovative banking-as-a-service platform.
+
+
+      Our team developed a highly-scalable, robust payments system based on a
+      distributed architecture for a leading fintech company. This event-driven
+      platform implemented many third-party integration points, such as
+      [Jack Henry](https://www.jackhenry.com/) and
+      [Feedzai](https://feedzai.com/).
+
+
+      Microservices were powered by [Micronaut](https://micronaut.io/), deployed
+      on [Google Cloud](https://cloud.google.com/), and communicating using
+      [Apache Kafka](https://kafka.apache.org/).
+
+    duration_from: Jul 2021
+    duration_to: Jan 2023
+    link: 'https://objectcomputing.com/'
+    position: Senior Software Engineer
+    technologies:
+      - Java 17
+      - Gradle
+      - Micronaut Framework
+      - Reactive Streams
+      - Netty
+      - REST APIs
+      - Kafka
+      - Avro
+      - KsqlDB
+      - Google Cloud
+      - Microservices
+      - Keycloak
+      - Jack Henry
+      - Hummingbird
+      - CoreCard
+      - Feedzai
+
   - company: YouCanBook.me
     content: >
 
-      Currently working at *YouCanBook.me*, in **Engineering Team**. I focus on
-      the development and maintenance of the backend systems that power the
+      Working at *YouCanBook.me*, in **Engineering Team**. I focused on the
+      development and maintenance of the backend systems that powered the
       scheduling app.
 
 
-      My team is responsible for:
+      My team was responsible for:
 
 
       * Monitoring and maintenance of YouCanBook.me APIs, services and
@@ -23,7 +93,7 @@ featured:
       * Improving the in-house billing and subscriptions component.
 
     duration_from: Mar 2020
-    duration_to: Present
+    duration_to: Jun 2021
     link: 'https://youcanbook.me/'
     position: Software Engineer
     technologies:
