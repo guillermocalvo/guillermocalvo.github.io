@@ -3,28 +3,30 @@ intro: >
   These are some of my skills.
 
 
-  I try to learn as many technologies as I can, so I can use **the best tool for
-  the job**.
+  I try to learn as many technologies as I can, so I can use **the best tool for the job**.
 featured:
   - level: Expert
-    title: 'Java, Spring, Web Services, Docker'
+    title: 'Java, Spring, Micronaut, Backend'
+    value: 99%
+  - level: Specialist
+    title: 'Microservices, Event-Driven, Kafka'
     value: 96%
-  - level: Expert
-    title: 'Play, Reactive Streams, Microservices'
+  - level: Advanced
+    title: 'Scalability, Observability, Resilience'
     value: 92%
-  - level: Pro
-    title: 'K8s, Jenkins, Prometheus, Kafka'
-    value: 82%
-  - level: Pro
-    title: 'HTML5, CSS3, JavaScript, REST'
-    value: 78%
   - level: Skilled
-    title: 'C#, PHP, Python, Ruby, Go, PL/SQL'
-    value: 65%
+    title: 'REST, API Design, SQL, NoSQL'
+    value: 82%
+  - level: Proficient
+    title: 'DevOps, Releases, CI/CD Autom.'
+    value: 78%
 other:
   - level: Expert
     title: C
     value: 96%
+  - level: Skilled
+    title: 'C#, PHP, Python, Ruby, Go, PL/SQL'
+    value: 65%
 more:
   link: 'https://www.linkedin.com/in/guillermocalvo#skills'
   title: More skills
