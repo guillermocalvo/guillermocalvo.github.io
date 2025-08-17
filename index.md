@@ -55,8 +55,8 @@ twitter_cards:
     web apps, e-commerce, smart phones, video games…
 ---
 
-I'm a **Software Developer** with wide experience as a Senior Programmer in several platforms: desktop applications, middleware, web apps, e-commerce, smart phones, video games, etc. Any related technology is of interest to me.
+Experienced **Senior Java Backend Engineer** with 15+ years designing **scalable, event-driven, and robust distributed systems**.
 
-I consider myself a **versatile and innovative professional**; I am capable of carrying out research, analysis, design and development tasks. I can be both a team player and a goal-driven individual, who can work alone and complete deadlines.
+Expert in Java, Microservices, Spring Boot, Micronaut, Kafka, Docker, Kubernetes, and cloud-native architectures.
 
-I am a dedicated software professional; **always looking for new challenges** and interesting projects. I love my job and giving 110% every day so I can be proud of what I do.
+Proven track record **delivering measurable impact**, **leading company-wide initiatives** to accelerate development, and **boosting system performance** for high-traffic demands in fintech and e-commerce environments.
