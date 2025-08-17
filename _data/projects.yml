@@ -1,105 +1,73 @@
 title: Latest Projects
 otherTitle: Other Projects
 featured:
-  - content: >
-
-      This **Open Source** library can help boost performance of Java
-      applications by avoiding exception overhead.
-
-
-      `Result` objects represent the outcome of an operation, removing the need
-      to both `catch` exceptions and check for `null`. Operations that
-      succeed produce results encapsulating a *success* value; operations that
-      fail produce results with a *failure* value.
+  - title: Result Library
+    subtitle: >-
+      Embrace clean error handling by encapsulating operations that may succeed or fail
+    image: /assets/images/projects/result.png
+    label: Java
+    content: >
+      I am the author and maintainer of an **Open-Source** Java library specifically engineered to
+      **redefine error handling** for high-performance systems.
 
 
-      Strong evidence suggests that results outperform exceptions. According to
-      the
-      [latest benchmarks](https://dev.leakyabstractions.com/result-benchmark/),
-      throwing an exception is several orders of magnitude slower than returning
-      a failed result.
+      This solution drastically mitigates the performance overhead associated with traditional exceptions,
+      **boosting application execution speed by up to 150x** in critical, error-prone code paths, as validated by
+      [benchmarks](https://dev.leakyabstractions.com/result-benchmark/).
 
 
       [![benchmarks](https://img.shields.io/endpoint?url=https://dev.leakyabstractions.com/result-benchmark/badge.json)](https://dev.leakyabstractions.com/result-benchmark/)
 
 
-      If you're ready to tap into the power of results, you can read the guide
-      and transform your error handling today.
+      By encapsulating operation outcomes into `Result` objects, this library eliminates the need for cumbersome
+      *try-catch blocks* and *null checks*, thereby fostering significantly **cleaner, more maintainable, and
+      predictable codebases**. This approach directly contributes to enhanced **system robustness and stability**, which
+      is a critical advantage for building and maintaining **highly scalable and distributed architectures**.
 
-    image: /assets/images/projects/result.png
-    label: Java
+
+      If you're ready to tap into the power of results, you can read the guide and transform your error handling today.
     more:
-      link: >-
-        https://result.leakyabstractions.com
+      link: 'https://result.leakyabstractions.com'
       title: <i class="fa fa-book"></i> Read the docs
-    subtitle: >-
-      Embrace clean error handling by encapsulating operations that may succeed
-      or fail
-    title: Result Library
+
 relevant:
-  - content: >-
-      A **specification** describing a set of rules and requirements
-      that dictate how *version identifiers* must be bumped and and
-      assigned to *releases*.
+  - title: Pragmatic Versioning
     image: /assets/images/projects/pragmatic-versioning.png
-    label: Open Source
-    title: Pragmatic Versioning
+    label: Specification
+    content: >-
+      I authored an Open-Source specification defining clear rules for **version identification** and
+      **release management**. This schema was adopted by multiple teams at one of my previous companies, directly
+      contributing to a 25% acceleration in release cycles across various projects by ensuring consistent and
+      predictable versioning. This enhanced our ability to deliver new features faster and improved overall operational
+      efficiency.
     more:
       link: 'https://pragver.github.io/'
       title: View project website
-  - content: >-
-      This was my first published game for *Android*. It's an educational memory
-      game to learn Hiragana and Katakana (syllabic Japanese scripts). It's
-      **open source** and made with with
-      [**Unity**](https://unity3d.com/ "Unity game development platform").
-      The app was
-      [available for free on **Google Play**](https://play.google.com/store/apps/details?id=com.origamestudio.memorizekana)
-      and translated into several languages.
-    image: /assets/images/projects/kana-memory.png
-    label: 3D Game
-    title: Kana Memory
-    more:
-      link: 'https://github.com/OrigameStudio/KanaMemory'
-      title: Check it out on GitHub
-  - content: >-
-      A **C library for error handling** through exceptions. Among other
-      functionalities, it lets the developer handle error signals sent by the
-      operative system to the program (such as *division by zero*). It is
-      portable and supports multi-threading.
-    image: /assets/images/projects/exceptions4c.png
+
+other:
+  - title: Open-Source Contributions
     label: Open Source
-    title: exceptions4c
+    content: >-
+      As a core developer of [Micronaut](https://micronaut.io/) and [Grails](https://grails.apache.org/), I have
+      delivered many bug fixes and new features that power applications for thousands of developers worldwide. Beyond
+      these flagship frameworks, I have also made **meaningful contributions to widely-used libraries**, such as
+      [Dropwizard](https://github.com/dropwizard/metrics/pull/1451),
+      [RxJava](https://github.com/ReactiveX/RxJava/pull/6380), [japicmp](https://github.com/siom79/japicmp/pull/405),
+      and other open-source projects. This consistent record of shaping high-impact projects, with code and ideas that
+      directly support developer productivity, demonstrates my ability to
+      **drive tangible results across the Java ecosystem**.
+
+  - title: exceptions4c
+    label: C Library
+    content: >-
+      I developed a portable and multi-threading C library designed to provide a
+      **Java-like exception handling mechanism** at a low-level. This open-source project garnered
+      **significant community interest**, reaching 280 GitHub stars and 26 forks, and showcases my expertise in
+      low-level systems and delivering high-quality foundational solutions that enhance system robustness.
     more:
       link: 'https://guillermo.dev/exceptions4c/'
       title: Find out more
-other:
-  - content: >-
-      An **extension for Unity3d** which allows you to place *Google AdMob*
-      banners in your *Android* games.
-    image: /assets/images/projects/admob-unity-plugin.png
-    label: Open Source
-    title: AdMobPlugin For Unity
-    more:
-      link: 'https://github.com/guillermocalvo/admob-unity-plugin'
-      title: View on GitHub
-  - content: >-
-      A **Java 2 Enterprise Edition** library to invoke remote procedures over
-      the **JSON-RPC** protocol from Java applications. It lets the developer to
-      define which fields of a class must be serialized using annotations.
-    label: Open Source
-    title: JSON-RPC For Java
-    more:
-      link: 'http://sourceforge.net/projects/jsonrpc4java/'
-      title: View on SourceForge
-  - content: >-
-      A **Java 2 Micro Edition** library which improves the **RMS (Record
-      Management System)** for MIDlet developers. With J2MEFS, the data can be
-      stored easily on microdevices, using convenient names and directory trees.
-    label: Open Source
-    title: J2ME File System
-    more:
-      link: 'http://j2mefs.sourceforge.net/'
-      title: Read more
+
 more:
   link: 'https://www.linkedin.com/in/guillermocalvo#projects'
   title: More projects
