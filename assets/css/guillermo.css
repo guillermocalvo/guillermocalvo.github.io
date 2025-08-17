@@ -55,8 +55,8 @@
     padding-left: 25px
 }
 
-.interests .item .tags .tag:before {
-    content: '#'
+.interests .item .tags .tag:not(:nth-child(1)):before {
+    content: '● '
 }
 
 .interests .item:last-child {

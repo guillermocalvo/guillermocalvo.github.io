@@ -22,27 +22,33 @@ feed:
   link: 'https://leakyabstractions.com/feed.xml'
   more: Read more
 interests:
-  featured:
-    - tags:
-        - Programming
-        - Software
-        - Internet
-      title: Technology
-    - tags:
-        - IndieDev
-        - Arcade
-        - 8bits
-      title: Video Games
-    - tags:
-        - Music
-        - Books
-        - Movies
-        - Comics
-      title: Art
-    - tags:
-        - Anime
-        - Manga
-        - Sushi
-        - Origami
-      title: Japan
   title: Main interests
+  featured:
+    - title: 'Software Architecture & Design'
+      tags:
+        - 'Microservices & Distributed Systems'
+        - 'Domain-Driven Design'
+        - 'Event-Driven Architecture'
+        - 'Scalability & Resilience'
+        - 'API-First Development'
+        - 'Clean/Hexagonal Architecture'
+    - title: 'Data & Messaging Systems'
+      tags:
+        - 'SQL & NoSQL Databases'
+        - 'Data Modeling & Consistency'
+        - 'Message Queues'
+        - 'Stream Processing & Event Streaming'
+        - 'Caching Strategies'
+    - title: 'Cloud-Native & Delivery Engineering'
+      tags:
+        - 'Docker & Kubernetes'
+        - 'CI/CD & Deployment Strategies'
+        - 'Infrastructure as Code'
+        - 'Observability, Metrics, Logging, Tracing'
+    - title: 'Security & Reliability'
+      tags:
+        - 'Authentication & Authorization'
+        - 'Encryption & Data Protection'
+        - 'Secure Coding Practices'
+        - 'Audit Logging & Compliance'
+        - 'Disaster Recovery & Incident Response'
