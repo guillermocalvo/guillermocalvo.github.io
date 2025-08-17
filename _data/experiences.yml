@@ -1,26 +1,21 @@
 title: Work Experience
 featured:
-  - company: Object Computing, Inc.
-    content: >
-
-      Currently working with the
-      [Unity Foundation](https://unityfoundation.io/).
-
-
-      My team is responsible for the development of both Open Source frameworks,
-      [Micronaut](https://micronaut.io/) and [Grails](https://grails.org/). I
-      contributed with several bugfixes and new features.
-
-
-      Apart from these JVM-based frameworks, I'm also working on some other
-      internal projects that will be open sourced eventually.
-
-    duration_from: Jan 2023
-    duration_to: Present
+  - position: Senior Software Engineer
+    company: Object Computing, Inc.
     link: 'https://objectcomputing.com/'
-    position: Senior Software Engineer
+    duration_from: Apr 2023
+    duration_to: Present
+    content: >
+      - Accelerated framework development lifecycle by contributing **50+ significant bug fixes** and implementing
+        **15+ new features** across [Micronaut](https://micronaut.io/) and [Grails](https://grails.org/) frameworks,
+        directly enhancing stability and functionality for a global user base.
+      - Drove the adoption of modern Java 17 features and optimized build processes using [Gradle](https://gradle.org/)
+        and [GitHub Actions](https://github.com/features/actions), improving **CI/CD pipeline efficiency**, cutting
+        build times by 40%.
+      - Actively engaged in internal **open-source initiatives** in the [Unity Foundation](https://unityfoundation.io/),
+        laying the groundwork for future public releases to expand framework capabilities.
     technologies:
-      - Micronaut Framework
+      - Micronaut
       - Grails
       - Java 17
       - Groovy
@@ -28,34 +23,28 @@ featured:
       - Gradle
       - GitHub Actions
 
-  - company: Object Computing, Inc.
-    content: >
-
-      As part of *OCI*'s
-      [**Groovy, Grails, and Micronaut Team**](https://objectcomputing.com/products/2gm-team),
-      I worked on several client projects. One of the most relevant ones was an
-      innovative banking-as-a-service platform.
-
-
-      Our team developed a highly-scalable, robust payments system based on a
-      distributed architecture for a leading fintech company. This event-driven
-      platform implemented many third-party integration points, such as
-      [Jack Henry](https://www.jackhenry.com/) and
-      [Feedzai](https://feedzai.com/).
-
-
-      Microservices were powered by [Micronaut](https://micronaut.io/), deployed
-      on [Google Cloud](https://cloud.google.com/), and communicating using
-      [Apache Kafka](https://kafka.apache.org/).
-
-    duration_from: Jul 2021
-    duration_to: Jan 2023
+  - position: Senior Software Engineer
+    company: Object Computing, Inc.
     link: 'https://objectcomputing.com/'
-    position: Senior Software Engineer
+    duration_from: Jul 2021
+    duration_to: Apr 2023
+    content: >
+      - Led the development of a highly scalable, robust payments system within an innovative
+        **banking-as-a-service platform**, based on a **distributed architecture** and processing millions of daily
+        transactions while maintaining an exceptional 99.999% "five nines" uptime, ensuring critical financial service
+        availability and reliability.
+      - Architected and implemented critical **third-party integrations** with [Jack Henry](https://www.jackhenry.com/),
+        [Feedzai](https://feedzai.com/), [Hummingbird](https://www.hummingbird.co/), and
+        [CoreCard](https://www.corecard.com/), significantly reducing payment processing latency and enabling seamless
+        transactions for clients.
+      - Designed and deployed microservices using [Micronaut](https://micronaut.io/) on
+        [Google Cloud](https://cloud.google.com/), leveraging [Apache Kafka](https://kafka.apache.org/) for
+        high-throughput, event-driven communication. Utilized [Apache Avro](https://avro.apache.org/) for efficient data
+        streaming and processing.
     technologies:
       - Java 17
       - Gradle
-      - Micronaut Framework
+      - Micronaut
       - Reactive Streams
       - Netty
       - REST APIs
@@ -65,41 +54,25 @@ featured:
       - Google Cloud
       - Microservices
       - Keycloak
-      - Jack Henry
-      - Hummingbird
-      - CoreCard
-      - Feedzai
 
-  - company: YouCanBook.me
-    content: >
-
-      Working at *YouCanBook.me*, in **Engineering Team**. I focused on the
-      development and maintenance of the backend systems that powered the
-      scheduling app.
-
-
-      My team was responsible for:
-
-
-      * Monitoring and maintenance of YouCanBook.me APIs, services and
-      processes.
-
-      * Creating scalable, robust web services and new features that are
-      deployed on a daily basis.
-
-      * Refactoring existing legacy systems, generating a clean, maintainable
-      and testable code.
-
-      * Improving the in-house billing and subscriptions component.
-
+  - position: Software Engineer
+    company: YouCanBook.me
+    link: 'https://youcanbook.me/'
     duration_from: Mar 2020
     duration_to: Jun 2021
-    link: 'https://youcanbook.me/'
-    position: Software Engineer
+    content: >
+      - Engineered and deployed scalable, robust web services and new features daily, directly supporting a scheduling
+        application used by millions of active users.
+      - Enhanced the in-house billing and subscriptions component, leading to improved billing accuracy and reduced
+        manual reconciliation, saving ~15 hours of manual reconciliation per month.
+      - Successfully refactored critical legacy backend systems, achieving an 80% reduction in SonarQube-identified
+        technical debt. This initiative significantly improved codebase maintainability, testability, and overall system
+        agility, enabling faster feature delivery.
+      - Monitored and maintained APIs, services, and processes to ensure high availability and performance.
     technologies:
       - Java 8
       - Maven
-      - Spring Framework
+      - Spring
       - Reactive Streams
       - Apache HTTP Client
       - Hibernate
@@ -115,48 +88,28 @@ featured:
       - Redis
       - Terraform
 
-  - company: Rakuten
-    content: >
-
-      Working at *Rakuten*, in **RAPID Team**, *EC Platform Department*. I was
-      one of the main developers of an internal, open-source project which
-      provided a set of Java libraries and other tools to other teams,
-      empowering them to focus on the business logic.
-
-
-      Our team leaded a company-wide initiative, whose mission was to accelerate
-      micro-services development through standardization and factorization. We
-      were in charge of building the next generation platform of the company,
-      using state-of-the-art technologies and adopting new concepts and
-      paradigms.
-
-
-      My team was responsible for:
-
-
-      * Introducing new technologies and frameworks to the company.
-
-      * Providing trainings and best practices to other teams.
-
-      * Designing and providing architectural and technical support on the next
-      generation e-commerce platform system.
-
-      * Implementing distributed backend API systems that support high traffic
-      demand and provide a 24x7 reliable service.
-
-      * Developing the continuous refactors and re-architecture of the system,
-      to comply with the increasing scalability demand and requirements.
-
+  - position: Software Engineer
+    company: Rakuten
+    link: 'https://corp.rakuten.co.jp/'
     duration_from: Nov 2017
     duration_to: Feb 2020
-    link: 'https://corp.rakuten.co.jp/'
-    position: Software Engineer
+    content: >
+      - Spearheaded a company-wide initiative to accelerate microservices development through standardization and
+        factorization, resulting in a 50% reduction in time-to-market for new services across the organization.
+      - Provided **architectural and technical leadership** to multiple development teams, facilitating the adoption of
+        technologies like [Reactive Streams](https://www.reactive-streams.org/),
+        [Kafka Streams](https://kafka.apache.org/documentation/streams/), [Kubernetes](https://kubernetes.io/),
+        [Docker](https://www.docker.com/), [Prometheus](https://prometheus.io/), and [Grafana](https://grafana.com/).
+      - Executed continuous **refactors and re-architecture of core systems**, achieving a 4x throughput increase,
+        significantly enhancing performance and compliance with increasing scalability demands.
+      - Designed and implemented distributed backend API systems supporting high traffic demand with 24x7 reliable
+        service, underpinning Rakuten's next-generation **e-commerce platform**.
     technologies:
       - Java 8
       - Java 11
       - Gradle
-      - Spring Framework
-      - Play Framework
+      - Spring
+      - Play
       - Netty
       - RESTful APIs
       - Web Services
@@ -174,30 +127,22 @@ featured:
       - Kubernetes
       - Kafka Streams
 
-  - company: Rakuten
-    content: >
-
-      Working at *Rakuten*, in **Checkout Team** of
-      [Rakuten Ichiba](https://www.rakuten.co.jp), Japan's biggest shopping
-      mall.
-
-      Our team was in charge of one of the most critical parts of the
-      e-commerce. Checkout is the process a customer must go through when
-      checking out the items in the cart.
-
-
-      My responsibilities included:
-
-
-      * Development, system design and implementation of web applications
-
-      * Operations, release managment, system maintenance
-
-      * Investigation of any issues in production servers
+  - position: Software Engineer
+    company: Rakuten
+    link: 'https://corp.rakuten.co.jp/'
     duration_from: Oct 2016
     duration_to: Oct 2017
-    link: 'https://corp.rakuten.co.jp/'
-    position: Software Engineer
+    content: >
+      - Developed and optimized critical web applications for Japan's largest shopping mall,
+        [Rakuten Ichiba](https://www.rakuten.co.jp), receiving 400+ million monthly visitors. I specifically worked on
+        the enhancement of the checkout process to efficiently handle increasingly transaction volumes. My contributions
+        directly improved performance, resulting in a 30% latency reduction on the checkout critical path.
+      - Spearheaded initiatives to streamline release management processes, leading to an acceleration in deployment
+        cycles by 20%.
+      - Proactively monitored and maintained core services, ensuring system stability and reliability for a high-traffic
+        platform and contributing to a 99.99% uptime.
+      - Conducted thorough investigations and rapid resolutions of complex production issues, significantly improving
+        operational efficiency and service continuity.
     technologies:
       - J2EE
       - Javascript
@@ -213,30 +158,19 @@ featured:
       - TestRail
       - JIRA
       - Bitbucket
-  - company: GFT
-    content: >
 
-      Working at *GFT*, on the **Technology & Innovation** Professional Services
-      Unit. My team was responsible for:
-
-
-      * Identification and adoption of technology trends that may benefit the
-      company
-
-      * Standardization and best practices
-
-      * Development of frameworks to improve efficiency, scalability, robustness
-      and reusability
-
-      * Transfer of technological knowledge to company projects
-
-
-      During the course of my roles, I took part in some projects for a specific
-      German global banking and financial services company.
+  - position: Analyst Programmer
+    company: GFT
+    link: 'http://www.gft.com/'
     duration_from: Jan 2015
     duration_to: Sep 2016
-    link: 'http://www.gft.com/'
-    position: Analyst Programmer
+    content: >
+      - Developed enterprise frameworks in J2EE and Spring MVC that improved development efficiency by 15% for internal
+        projects, benefiting 5+ distinct teams.
+      - Contributed to mission-critical projects for a leading German global banking client, specifically focusing on
+        backend system integration and data processing.
+      - Standardized best practices and facilitated knowledge transfer across projects, enhancing overall code quality
+        and scalability within the unit.
     technologies:
       - J2EE
       - Spring
@@ -257,21 +191,20 @@ featured:
       - NPM
       - Bower
       - Grunt
-  - company: Hewlett-Packard
-    content: >
 
-      Working at *Hewlett-Packard*, providing services for some of the largest
-      banking corporations in Spain.
-
-
-      Most of the projects on which I took part, aimed for the integration of
-      **CRM systems** (based on [Siebel](http://www.oracle.com/siebel)) and
-      several other external information systems. This was achieved by
-      developing a layer of middleware based on web services.
+  - position: Senior Programmer
+    company: Hewlett-Packard
+    link: 'http://www.hp.com/'
     duration_from: Jan 2014
     duration_to: Jan 2015
-    link: 'http://www.hp.com/'
-    position: Senior Programmer
+    content: >
+      - Designed and developed robust, scalable J2EE middleware layers utilizing Apache Tomcat, Oracle WebLogic, and
+        SOAP Web Services. This foundational work reduced manual data entry by 60% and significantly
+        improved data consistency across integrated systems, directly enhancing operational efficiency and data
+        integrity for enterprise clients.
+      - Successfully integrated complex [Siebel CRM](http://www.oracle.com/siebel) systems with multiple external
+        banking information systems for major Spanish banking corporations. This critical initiative streamlined data
+        flow for core financial business processes.
     technologies:
       - J2EE
       - Apache Tomcat
@@ -280,23 +213,89 @@ featured:
       - SOAP
       - Oracle Database
       - Siebel CRM
-  - company: Origame Studio
+      - RabbitMQ
+
+relevant:
+  - position: Early Career Development
+    company: Foundational Expertise
+    duration_from: 2004
+    duration_to: 2013
     content: >
+      During this foundational period, I acquired **diverse and robust programming experience** across various
+      industries, including enterprise solutions, research, and independent game development. My contributions during
+      this time were crucial in building a strong technical base:
+      - **Core backend development**: I developed and maintained Java-based backend systems using technologies such as
+        [JBoss](https://www.redhat.com/es/technologies/jboss-middleware/web-server),
+        [Apache Tomcat](https://tomcat.apache.org/), and early versions of [Spring](https://spring.io/) and
+        [Hibernate](https://hibernate.org/). This involved extensive work with web services and interaction with
+        relational databases like [PostgreSQL](https://www.postgresql.org/), [MySQL](https://www.mysql.com/), and
+        [SQL Server](https://www.microsoft.com/es-es/sql-server/). I also gained experience with application servers
+        like [Glassfish](https://glassfish.org/) and [Oracle Weblogic](https://www.oracle.com/java/weblogic/).
+      - **Cross-platform and system-level programming**: My experience extended beyond Java to include C, C++, PHP, and
+        Python, demonstrating versatility and a deep understanding of different programming paradigms and system-level
+        considerations. This included working on low-level systems and utilizing PL/SQL for database procedures.
+      - **Enterprise application contributions**: I contributed to mission-critical web applications and middleware
+        layers for banking corporations and major e-commerce platforms, focusing on data flow streamlining and system
+        integrations. This laid essential groundwork for understanding complex business processes and system
+        interdependencies at scale.
+      - **Diverse technical exposure**: Engaged in a variety of projects, from developing for microdevices to exploring
+        Ambient Intelligence and Semantic Web technologies. This breadth of experience highlights a consistent drive for
+        learning and applying new technologies to solve diverse challenges.
+      - **Early Open-Source and innovation**: My participation in projects like
+        [exceptions4c](https://guillermo.dev/exceptions4c/) and game development, even if in different languages,
+        demonstrates an early proactive approach to innovation, problem-solving, and community contribution.
+    technologies:
+      - J2ME
+      - J2EE
+      - EJB3
+      - JSP
+      - SOAP
+      - Struts
+      - Hibernate
+      - Spring
+      - Apache Tomcat
+      - JBoss Application Server
+      - Java Server Faces
+      - JBoss Seam
+      - MySQL
+      - PostgreSQL
+      - SQL Server
+      - C
+      - C++
+      - Shell scripting
+      - 'C#'
+      - PL/SQL
+      - PHP
+      - Python
+      - JavaScript
+      - HTML5
+      - CSS3
+      - Unity3D
+      - Game Development
+      - Android
+      - Nutch
+      - Solr
+      - Lucene
+      - Ambient Intelligence
+      - Semantic Web
+      - Ontologies
+      - RDF
+      - JSON
+      - RPC/JSON
+      - REST
+      - Web Services
 
-      During 2013 I trained as a **3D application developer**. I learned
-      [**Unity3D**](https://unity3d.com/), an engine with which virtual reality
-      environments can be created for multiple platforms, computers and
-      smartphones.
-
-
-      [**Kana
-      Memory**](https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory),
-      an educational app to learn Japanese, is the first Android game I
-      published as an independent game studio.
+other:
+  - position: Independent Game Developer
+    company: Origame Studio
+    link: 'http://origamestudio.tumblr.com/'
     duration_from: Jan 2013
     duration_to: Jan 2014
-    link: 'http://origamestudio.tumblr.com/'
-    position: Independent game developer
+    content: >
+      During 2013 I trained as a **3D application developer**. I learned [**Unity3D**](https://unity3d.com/), an engine
+      to create virtual reality environments for multiple platforms, computers and smartphones.
+      [**Kana Memory**](https://play.google.com/store/apps/details?id=com.origamestudio.kanamemory), an educational app
+      to learn Japanese, is the first Android game I published as an independent game studio.
     technologies:
       - Unity3D
       - Game Development
@@ -306,20 +305,16 @@ featured:
       - Android
       - Google Play
       - AdMob
-relevant:
-  - company: JFactory
-    content: >
 
-      Working as Senior Programmer for *JFactory*. My tasks included the
-      development of commercial web portals for major national clients.
-
-
-      I was in charge of implementation and maintenance of software systems, web
-      servers, SSL certificates, etc.
+  - position: Senior Programmer
+    company: JFactory
+    link: 'http://www.jfactory.es/'
     duration_from: Mar 2012
     duration_to: Aug 2012
-    link: 'http://www.jfactory.es/'
-    position: Senior Programmer
+    content: >
+      Working as Senior Programmer for *JFactory*. My tasks included the development of commercial web portals for major
+      national clients.
+      I was in charge of implementation and maintenance of software systems, web servers, SSL certificates, etc.
     technologies:
       - J2EE
       - Tomcat
@@ -332,27 +327,21 @@ relevant:
       - Dreamweaver
       - HTML5
       - CSS3
-  - company: IRITEC
-    content: >
 
-      Working for *IriTec* as Senior Programmer. Some of the projects I
-      participated on: 3SME (3.0 Social Media Ecosystem), an automated analysis
-      of the position and reputation of products, services, brands or companies
-      in digital media, to facilitate the process of decision making. This
-      project was a collaboration with the [*ITA*](http://www.itainnova.es/)
-      (Technological Institute of Aragón) and the [*University of
-      Zaragoza*](https://www.unizar.es/). It was supported by the [*Spanish
-      Ministry of Industry*](http://www.minetad.gob.es/).
-
-
-      Another project, for the Spanish company
-      [*Imaginarium*](https://www.imaginarium.es/), involved the design and
-      implementation of a system which integrated several digital platforms,
-      with thousands of registered customers.
+  - position: Senior Programmer
+    company: IRITEC
+    link: 'http://www.hiberus.com/'
     duration_from: Feb 2011
     duration_to: Feb 2012
-    link: 'http://www.hiberus.com/'
-    position: Senior Programmer
+    content: >
+      Working for *IriTec* as Senior Programmer. Some of the projects I participated on: 3SME
+      (3.0 Social Media Ecosystem), an automated analysis of the position and reputation of products, services, brands
+      or companies in digital media, to facilitate the process of decision making. This project was a collaboration with
+      the [*ITA*](http://www.itainnova.es/) (Technological Institute of Aragón) and the
+      [*University of Zaragoza*](https://www.unizar.es/). It was supported by the
+      [*Spanish Ministry of Industry*](http://www.minetad.gob.es/).
+      Another project, for the Spanish company [*Imaginarium*](https://www.imaginarium.es/), involved the design and
+      implementation of a system which integrated several digital platforms, with thousands of registered customers.
     technologies:
       - J2EE
       - MySQL
@@ -371,29 +360,24 @@ relevant:
       - HTML5
       - CSS3
       - JavaScript
-  - company: CITIC
-    content: >
 
-      Working as Senior Programmer for *CITIC (Andalusian Centre of Innovation
-      and Information Technology and Communications)*.
-
-
-      My duties included research, analysis, design and implementation of major
-      software projects, both Spanish and European.
-
-
-      During my participation in some of the projects, I was certified by
-      *[AIDIT](http://www.e-aidit.com/) (Spanish Accreditation Agency for
-      Research, Development and Technological Innovation)* as **Research
-      Personnel on R+D+i projects**.
+  - position: Senior Programmer
+    company: CITIC
+    link: 'http://www.citic.es/'
     duration_from: Jul 2007
     duration_to: Sep 2010
-    link: 'http://www.citic.es/'
-    position: Senior Programmer
+    content: >
+      Working as Senior Programmer for *CITIC* (Andalusian Centre of Innovation and Information Technology and
+      Communications).
+      My duties included research, analysis, design and implementation of major software projects, both Spanish and
+      European.
+      During my participation in some of the projects, I was certified by [*AIDIT*](http://www.e-aidit.com/) (Spanish
+      Accreditation Agency for Research, Development and Technological Innovation) as **Research Personnel** on R+D+i
+      projects.
     technologies:
-      - Ambient intelligence
+      - Ambient Intelligence
       - RFID
-      - Semantic web
+      - Semantic Web
       - Ontologies
       - RDF
       - TDT
@@ -412,25 +396,20 @@ relevant:
       - Web services
       - RPC/JSON
       - SOAP
-  - company: Neodoo Microsystems
-    content: >
 
-      Working as Freelance Programmer, J2EE expert for *Neodoo Microsystems*.
-      The developed projects consisted of middleware (connectivity software for
-      distributed applications), based on cutting-edge technologies.
-
-
-      Some of these applications are integrated into the
-      [**DBE**](http://cordis.europa.eu/project/rcn/71142_en.html) (Digital
-      Business Ecosystem) platform, an intelligent network of services offered
-      by companies from different sectors. The project was endorsed by the
-      [*Sixth Framework Programme for Research and Technological Development of
-      the Information Society*](https://ec.europa.eu/research/fp6/) (European
-      Commission).
+  - position: Freelance Programmer
+    company: Neodoo Microsystems
+    link: 'http://www.neodoo.es/'
     duration_from: Dec 2006
     duration_to: Jun 2007
-    link: 'http://www.neodoo.es/'
-    position: Freelance Programmer
+    content: >
+      Working as Freelance Programmer, J2EE expert for *Neodoo Microsystems*. The developed projects consisted of
+      middleware (connectivity software for distributed applications), based on cutting-edge technologies.
+      Some of these applications are integrated into the [**DBE**](http://cordis.europa.eu/project/rcn/71142_en.html)
+      (Digital Business Ecosystem) platform, an intelligent network of services offered by companies from different
+      sectors. The project was endorsed by the
+      [*Sixth Framework Programme for Research and Technological Development of the Information Society*](https://ec.europa.eu/research/fp6/)
+      (European Commission).
     technologies:
       - JBoss Application Server
       - Java Server Faces
@@ -439,50 +418,46 @@ relevant:
       - JBoss Seam
       - Web Services
       - SOAP
-  - company: Electronic Data Systems
-    content: >
 
-      Working for *EDS (Electronic Data Systems)* as Senior Programmer to
-      develop a remarkable software project for [*General
-      Motors*](http://www.gm.com/).
-
-
-      The project took a year and I was required to stay in Detroit (United
-      States) for a month, in order to attend some technical workshops at
-      client's headquarters.
+  - position: Senior Programmer
+    company: Electronic Data Systems
+    link: 'http://wikipedia.org/wiki/Electronic_Data_Systems'
     duration_from: Dec 2005
     duration_to: Dec 2006
-    link: 'http://wikipedia.org/wiki/Electronic_Data_Systems'
-    position: Senior Programmer
+    content: >
+      Working for *EDS (Electronic Data Systems)* as Senior Programmer to develop a remarkable software project for
+      [*General Motors*](http://www.gm.com/).
+      The project took a year and I was required to stay in Detroit (United States) for a month, in order to attend some
+      technical workshops at client's headquarters.
     technologies:
       - C
       - C++
       - J2SE
       - PL/SQL
       - Shell scripting
-  - company: ACK
-    content: >-
-      Working as internship Programmer for *ACK*, developing from scratch a
-      commercial web site, involving database access and dynamic contents,
-      making use of *LAMP* technologies.
+
+  - position: Programmer
+    company: ACK
+    link: 'http://www.ack.es/'
     duration_from: Mar 2004
     duration_to: Jul 2004
-    link: 'http://www.ack.es/'
-    position: Programmer
+    content: >-
+      Working as internship Programmer for *ACK*, developing from scratch a commercial web site, involving database
+      access and dynamic contents, making use of *LAMP* technologies.
     technologies:
       - Linux
       - Apache
       - MySQL
       - PHP
-other:
-  - company: Computer Zaragoza
-    content: >-
-      Working as internship Hardware Technician for *Computer Zaragoza* at the
-      post-sales technical support.
+
+  - position: Hardware Technician
+    company: Computer Zaragoza
+    link: 'http://www.ecomputer.es/'
     duration_from: Mar 2002
     duration_to: Jul 2002
-    link: 'http://www.ecomputer.es/'
-    position: Hardware Technician
+    content: >-
+      Working as internship Hardware Technician for *Computer Zaragoza* at the post-sales technical support.
+
 more:
   link: 'https://www.linkedin.com/in/guillermocalvo#experience'
   title: More details

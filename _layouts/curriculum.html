@@ -232,23 +232,21 @@ layout: compress
                           {% for experience in site.data.experiences.relevant %}
                             <div id="work-experience-{{ forloop.index }}" class="relevant item">
                                 <h3 class="title">
-                                    <span class="level-label" data-toggle="tooltip" data-placement="bottom" data-animation="true" title="{{ experience.content | markdownify | strip_html }}">
-                                        {{ experience.position }} -
-                                        <span class="place">
-                                            {% if experience.link %}<a href="{{ experience.link }}">{% endif %}{{ experience.company }}{% if experience.link %}</a>{% endif %}
-                                        </span>
-                                        <span class="year">({{ experience.duration_from }} &ndash; {{ experience.duration_to }})</span>
+                                    {{ experience.position }} -
+                                    <span class="place">
+                                        {% if experience.link %}<a href="{{ experience.link }}">{% endif %}{{ experience.company }}{% if experience.link %}</a>{% endif %}</span> <span class="year">({{ experience.duration_from }} &ndash; {{ experience.duration_to }})
                                     </span>
                                 </h3>
                                 <div class="technologies">
                                   {% for technology in experience.technologies %}
-                                      <span class="label label-theme">{{ technology }}</span>
+                                    <span class="label label-theme">{{ technology }}</span>
                                   {% endfor %}
                                 </div>
+                                <div class="description">
+                                    {{ experience.content | markdownify }}
+                                </div>
+                                <hr>
                             </div>
-                           {% if forloop.last %}
-                            <hr>
-                           {% endif  %}
                           {% endfor %}
 
                           {% if site.data.experiences.more %}
