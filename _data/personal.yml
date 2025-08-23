@@ -12,15 +12,6 @@ image: /assets/images/guillermo.png
 contact:
   link: 'mailto:contact@guillermo.dev'
   title: Contact Me
-feed:
-  title: Recent Posts
-  description: >-
-    These are some of the latest posts from my blog [Leaky
-    Abstractions](http://leakyabstractions.com/).
-  effect: slideFastSynced
-  limit: '2'
-  link: 'https://leakyabstractions.com/feed.xml'
-  more: Read more
 interests:
   title: Main interests
   featured:
